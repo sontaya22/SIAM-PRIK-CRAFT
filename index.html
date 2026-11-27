@@ -1,0 +1,1707 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIAM PRIK CRAFT (สยามพริกคราฟต์) — ร้านอาหารคราฟต์ & แฟ้มทรัพย์สินทางปัญญา [001407]</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Noto Serif Thai, Prompt & Sarabun -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@400;500;600;700&family=Prompt:wght@300;400;500;600;700&family=Sarabun:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Prompt', 'Sarabun', 'sans-serif'],
+                        serif: ['Noto Serif Thai', 'serif'],
+                        body: ['Sarabun', 'sans-serif'],
+                    },
+                    colors: {
+                        cream: {
+                            50: '#FDFBF7',
+                            100: '#FAF6F0',
+                            200: '#F2E9DC',
+                            300: '#E5D5C0',
+                        },
+                        tamarind: {
+                            700: '#3D2C26',
+                            800: '#2E211C',
+                            900: '#231915',
+                        },
+                        chili: {
+                            100: '#FCEAE4',
+                            200: '#F7D0C3',
+                            400: '#D46948',
+                            500: '#B84A27',
+                            600: '#9A3B1D',
+                            700: '#7B2D15',
+                        },
+                        saffron: {
+                            100: '#FDF3DF',
+                            200: '#F9E3B8',
+                            500: '#D49A3A',
+                            700: '#9E6E1F',
+                        },
+                        sage: {
+                            50: '#F2F5F0',
+                            100: '#E2E9DF',
+                            500: '#5C6F52',
+                            700: '#42513A',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Prompt', sans-serif;
+            background-color: #FAF6F0;
+            color: #231915;
+            scroll-behavior: smooth;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(184, 74, 39, 0.07) 0px, transparent 50%),
+                radial-gradient(at 100% 25%, rgba(212, 154, 58, 0.08) 0px, transparent 50%);
+        }
+        .font-editorial {
+            font-family: 'Noto Serif Thai', serif;
+        }
+        .font-sarabun {
+            font-family: 'Sarabun', sans-serif;
+        }
+        /* Subtle Organic Craft Paper Texture */
+        .bg-grain::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: 60;
+            opacity: 0.028;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }
+        ::-webkit-scrollbar {
+            width: 7px;
+            height: 7px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #FAF6F0;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #B84A27;
+            border-radius: 9999px;
+        }
+        .glass-nav {
+            background: rgba(250, 246, 240, 0.9);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        @keyframes floatSlow {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-6px); }
+        }
+        .animate-float {
+            animation: floatSlow 5s ease-in-out infinite;
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-grain text-tamarind-900 antialiased selection:bg-chili-200 selection:text-tamarind-900">
+
+    <!-- Top Academic Course Control Bar -->
+    <div class="bg-tamarind-900 text-cream-100 text-xs sm:text-sm py-2.5 px-4 border-b border-tamarind-700 sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2.5">
+            <div class="flex items-center gap-2.5 text-center md:text-left">
+                <span class="bg-chili-500 text-white font-semibold px-2.5 py-0.5 rounded-md text-xs tracking-wide shadow-xs">[001407]</span>
+                <span class="font-medium text-cream-50">โครงการ 3 ชั่วโมง: เปิดร้านออนไลน์ในฝันอย่างรู้สิทธิ</span>
+                <span class="hidden xl:inline text-cream-300/70">| ทรัพย์สินทางปัญญาในธุรกิจดิจิทัล (กลุ่ม 4-5 คน • 180 นาที)</span>
+            </div>
+            
+            <!-- Mode Switcher, Google Forms Log & Rubric Button -->
+            <div class="flex flex-wrap items-center justify-center gap-2">
+                <div class="flex items-center bg-tamarind-800 p-1 rounded-full border border-tamarind-700">
+                    <button id="btn-mode-store" onclick="switchViewMode('store')" class="flex items-center gap-1.5 px-3.5 py-1 rounded-full text-xs font-medium transition-all bg-chili-500 text-white shadow-xs cursor-pointer">
+                        <i data-lucide="utensils" class="w-3.5 h-3.5"></i>
+                        <span>มุมมองหน้าร้านลูกค้า</span>
+                    </button>
+                    <button id="btn-mode-teacher" onclick="switchViewMode('teacher')" class="flex items-center gap-1.5 px-3.5 py-1 rounded-full text-xs font-medium transition-all text-cream-200 hover:text-white cursor-pointer">
+                        <i data-lucide="clipboard-check" class="w-3.5 h-3.5"></i>
+                        <span>โหมดตรวจงาน (ครบ 4 ชิ้นงาน)</span>
+                    </button>
+                </div>
+
+                <button onclick="openSubmissionsLogModal()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium bg-sage-700 hover:bg-sage-500 text-white border border-sage-500 transition-all cursor-pointer">
+                    <i data-lucide="file-spreadsheet" class="w-3.5 h-3.5"></i>
+                    <span>ข้อมูล Google Forms (<span id="order-count-badge">0</span>)</span>
+                </button>
+
+                <button onclick="toggleRubricDrawer()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium bg-tamarind-800 hover:bg-tamarind-700 text-saffron-200 border border-tamarind-700 transition-all cursor-pointer">
+                    <i data-lucide="award" class="w-3.5 h-3.5 text-saffron-500"></i>
+                    <span>เกณฑ์ 20 คะแนน</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Collapsible 20-Point Rubric Drawer -->
+        <div id="rubric-drawer" class="hidden max-w-7xl mx-auto mt-3 pt-3 border-t border-tamarind-700/80 animate-fade-in">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 text-xs">
+                <div onclick="navigateTo('proposal')" class="cursor-pointer bg-tamarind-800/90 hover:bg-tamarind-700/80 border border-tamarind-700 p-3 rounded-xl transition-all flex items-center justify-between">
+                    <div>
+                        <span class="text-cream-300/80 block text-[11px]">ชิ้นงานที่ 1</span>
+                        <span class="font-semibold text-white">ข้อเสนอโครงการ 1 หน้า</span>
+                    </div>
+                    <span class="font-bold text-saffron-500 text-sm bg-tamarind-900 px-2.5 py-1 rounded-lg">3 คะแนน</span>
+                </div>
+                <div onclick="navigateTo('storefront')" class="cursor-pointer bg-tamarind-800/90 hover:bg-tamarind-700/80 border border-tamarind-700 p-3 rounded-xl transition-all flex items-center justify-between">
+                    <div>
+                        <span class="text-cream-300/80 block text-[11px]">ชิ้นงานที่ 2</span>
+                        <span class="font-semibold text-white">เว็บต้นแบบเปิดใช้งานและสาธิตได้</span>
+                    </div>
+                    <span class="font-bold text-saffron-500 text-sm bg-tamarind-900 px-2.5 py-1 rounded-lg">5 คะแนน</span>
+                </div>
+                <div onclick="navigateTo('ip-portfolio')" class="cursor-pointer bg-tamarind-800/90 hover:bg-tamarind-700/80 border border-tamarind-700 p-3 rounded-xl transition-all flex items-center justify-between">
+                    <div>
+                        <span class="text-cream-300/80 block text-[11px]">ชิ้นงานที่ 3</span>
+                        <span class="font-semibold text-white">แฟ้มวิเคราะห์ 12 ข้อ ตรงประเภทสิทธิ</span>
+                    </div>
+                    <span class="font-bold text-saffron-500 text-sm bg-tamarind-900 px-2.5 py-1 rounded-lg">9 คะแนน</span>
+                </div>
+                <div onclick="navigateTo('action-plan')" class="cursor-pointer bg-tamarind-800/90 hover:bg-tamarind-700/80 border border-tamarind-700 p-3 rounded-xl transition-all flex items-center justify-between">
+                    <div>
+                        <span class="text-cream-300/80 block text-[11px]">ชิ้นงานที่ 4</span>
+                        <span class="font-semibold text-white">ข้อเสนอจัดลำดับความสำคัญก่อนเปิดขาย</span>
+                    </div>
+                    <span class="font-bold text-saffron-500 text-sm bg-tamarind-900 px-2.5 py-1 rounded-lg">3 คะแนน</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Boutique Gastronomy Header -->
+    <header class="glass-nav border-b border-cream-300/80 sticky top-[104px] md:top-[46px] z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-3">
+                <!-- Custom Brand Logo (Mortar, Chili & Kaffir Lime Leaf SVG) -->
+                <div class="flex items-center gap-3.5 cursor-pointer group" onclick="navigateTo('storefront')">
+                    <div class="w-11 h-11 rounded-2xl bg-tamarind-900 flex items-center justify-center shadow-sm text-saffron-200 group-hover:bg-chili-500 group-hover:text-white transition-all duration-300">
+                        <!-- Custom SVG Logo: Artisan Chili & Herb Bowl -->
+                        <svg class="w-6 h-6" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <!-- Stylized Chili Curve -->
+                            <path d="M18.5 7.5C21 9.5 21.5 14.5 18 18.5C15 21.8 10 22 7.5 20.5C10.5 19.5 13.5 17 15 13.5C16.2 10.8 16.5 8.5 18.5 7.5Z" fill="currentColor" fill-opacity="0.22" stroke-linejoin="round"/>
+                            <!-- Chili Stem -->
+                            <path d="M18.5 7.5C19.5 5.8 21.2 5.2 22.5 5.5" stroke-linecap="round"/>
+                            <!-- Herb Leaf -->
+                            <path d="M8.5 14.5C6.5 12 7 8.5 10.5 7.5C12 10.5 11.5 13.5 8.5 14.5Z" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <span class="font-editorial font-bold text-lg sm:text-xl tracking-tight text-tamarind-900">SIAM PRIK CRAFT</span>
+                            <span class="text-[10px] font-semibold uppercase tracking-widest text-chili-700 bg-chili-100 border border-chili-200 px-2 py-0.5 rounded-full">สยามพริกคราฟต์</span>
+                        </div>
+                        <p class="text-[11px] text-sage-700 tracking-wide">Artisan Thai Crispy Chili Paste • สูตรคั่วเตาถ่านอบกรอบ</p>
+                    </div>
+                </div>
+
+                <!-- Navigation Tabs for 4 Deliverables -->
+                <nav class="hidden lg:flex items-center gap-1.5 bg-cream-200/80 p-1.5 rounded-2xl border border-cream-300/80">
+                    <button onclick="navigateTo('storefront')" id="nav-storefront" class="nav-tab active flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-semibold transition-all bg-white text-tamarind-900 shadow-xs cursor-pointer">
+                        <span class="w-5 h-5 rounded-full bg-chili-500 text-white text-[11px] flex items-center justify-center font-bold">2</span>
+                        <span>หน้าร้านต้นแบบ</span>
+                    </button>
+                    <button onclick="navigateTo('proposal')" id="nav-proposal" class="nav-tab flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-medium transition-all text-tamarind-700 hover:text-tamarind-900 hover:bg-white/60 cursor-pointer">
+                        <span class="w-5 h-5 rounded-full bg-cream-300 text-tamarind-900 text-[11px] flex items-center justify-center font-bold">1</span>
+                        <span>ข้อเสนอโครงการ (1 หน้า)</span>
+                    </button>
+                    <button onclick="navigateTo('ip-portfolio')" id="nav-ip-portfolio" class="nav-tab flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-medium transition-all text-tamarind-700 hover:text-tamarind-900 hover:bg-white/60 cursor-pointer">
+                        <span class="w-5 h-5 rounded-full bg-cream-300 text-tamarind-900 text-[11px] flex items-center justify-center font-bold">3</span>
+                        <span>แฟ้มวิเคราะห์ IP (12 ตัวอย่าง)</span>
+                    </button>
+                    <button onclick="navigateTo('action-plan')" id="nav-action-plan" class="nav-tab flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-medium transition-all text-tamarind-700 hover:text-tamarind-900 hover:bg-white/60 cursor-pointer">
+                        <span class="w-5 h-5 rounded-full bg-cream-300 text-tamarind-900 text-[11px] flex items-center justify-center font-bold">4</span>
+                        <span>ข้อเสนอจริงจังก่อนเปิดขาย</span>
+                    </button>
+                </nav>
+
+                <!-- Quick Order Button -->
+                <div class="flex items-center gap-2">
+                    <button onclick="openOrderModal()" class="bg-chili-500 hover:bg-chili-600 text-white text-xs sm:text-sm font-medium px-4 sm:px-5 py-2.5 rounded-full shadow-sm transition-all duration-300 flex items-center gap-2 active:scale-95 cursor-pointer">
+                        <i data-lucide="shopping-bag" class="w-4 h-4 text-saffron-200"></i>
+                        <span>ทดลองสั่งซื้อ</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Horizontal Tabs -->
+            <div class="flex lg:hidden items-center gap-2 overflow-x-auto py-2.5 border-t border-cream-300/60 no-scrollbar">
+                <button onclick="navigateTo('storefront')" id="m-nav-storefront" class="shrink-0 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-tamarind-900 text-white">2. หน้าร้านต้นแบบ</button>
+                <button onclick="navigateTo('proposal')" id="m-nav-proposal" class="shrink-0 px-3.5 py-1.5 rounded-full text-xs font-medium bg-white text-tamarind-800 border border-cream-300">1. ข้อเสนอโครงการ</button>
+                <button onclick="navigateTo('ip-portfolio')" id="m-nav-ip-portfolio" class="shrink-0 px-3.5 py-1.5 rounded-full text-xs font-medium bg-white text-tamarind-800 border border-cream-300">3. แฟ้ม IP (12 ข้อ)</button>
+                <button onclick="navigateTo('action-plan')" id="m-nav-action-plan" class="shrink-0 px-3.5 py-1.5 rounded-full text-xs font-medium bg-white text-tamarind-800 border border-cream-300">4. ข้อเสนอจริงจัง</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Teacher Mode Active Banner -->
+    <div id="teacher-banner" class="hidden bg-sage-700 text-cream-50 border-b border-sage-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs sm:text-sm">
+            <div class="flex items-center gap-2">
+                <i data-lucide="eye" class="w-4 h-4 text-saffron-200 shrink-0"></i>
+                <span><strong>โหมดตรวจงานอาจารย์เปิดใช้งานอยู่:</strong> แสดงเอกสารครบทั้ง 4 ชิ้นงานเรียงต่อเนื่องในหน้าเดียว (เกณฑ์ประเมินรวม 20 คะแนน)</span>
+            </div>
+            <button onclick="switchViewMode('store')" class="text-xs underline text-saffron-200 hover:text-white cursor-pointer">
+                กลับสู่โหมดหน้าร้านปกติ
+            </button>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 space-y-14">
+
+        <!-- ===================================================================== -->
+        <!-- SECTION 2: PROTOTYPE STOREFRONT (ชิ้นงานที่ 2: เว็บแอปต้นแบบ 1 หน้า)     -->
+        <!-- ===================================================================== -->
+        <section id="section-storefront" class="deliverable-section animate-fade-in">
+            <!-- Top Editorial Meta Bar -->
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+                <div class="inline-flex items-center gap-2 bg-cream-200/90 text-tamarind-800 border border-cream-300 px-3.5 py-1 rounded-full text-xs font-medium">
+                    <span class="w-2 h-2 rounded-full bg-chili-500"></span>
+                    <span>ชิ้นงานที่ 2: เว็บแอปต้นแบบหน้าร้านอาหารออนไลน์ 1 หน้า (เกณฑ์ 5 คะแนน)</span>
+                </div>
+                <span class="text-xs text-sage-700 flex items-center gap-1.5">
+                    <i data-lucide="shield-check" class="w-4 h-4 text-sage-500"></i>
+                    <span>ภาพเวกเตอร์กระปุก โลโก้ และคำบรรยายอาหารสร้างสรรค์เอง 100%</span>
+                </span>
+            </div>
+
+            <!-- Luxury Thai Gastronomy Showcase Card -->
+            <div class="bg-cream-50 rounded-[2rem] shadow-sm border border-cream-300/90 overflow-hidden">
+                <!-- Slogan Ribbon -->
+                <div class="bg-tamarind-900 text-cream-100 px-6 py-3 text-center flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-xs sm:text-sm">
+                    <span class="font-editorial italic text-saffron-200 tracking-wide">“รสชาติไทยแท้ คั่วใหม่ทุกกระปุก เติมความสุขให้ทุกมื้อเร่งรีบ”</span>
+                    <span class="hidden sm:inline text-tamarind-700">|</span>
+                    <span class="text-cream-200 text-xs">ชุดน้ำพริกคราฟต์อบกรอบพรีเมียม ไร้ผงชูรส ไร้น้ำมันเยิ้ม</span>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 p-6 sm:p-10 lg:p-12 items-center">
+                    
+                    <!-- Left Column: Interactive Chili Paste Jar SVG Studio -->
+                    <div class="lg:col-span-6 space-y-5">
+                        <div class="relative rounded-3xl p-6 sm:p-10 border border-cream-300/80 transition-colors duration-500 flex flex-col items-center justify-center min-h-[400px] overflow-hidden" style="background: radial-gradient(circle at 50% 45%, #FFFFFF 0%, #F2E9DC 100%);">
+                            
+                            <!-- Top-Left Original IP Tag -->
+                            <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-xs px-3 py-1.5 rounded-full text-[11px] font-medium text-tamarind-800 border border-cream-300 shadow-2xs flex items-center gap-1.5">
+                                <span class="w-2 h-2 rounded-full bg-sage-500"></span>
+                                ภาพวาดเวกเตอร์กระปุกสุญญากาศต้นฉบับของร้าน (ลิขสิทธิ์ & สิทธิบัตรออกแบบ)
+                            </div>
+
+                            <!-- Interactive Craft Chili Paste Jar SVG (Changes color, texture & label dynamically) -->
+                            <svg class="w-64 h-72 sm:w-72 sm:h-80 animate-float drop-shadow-lg" viewBox="0 0 320 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Soft Warm Aura -->
+                                <circle id="svg-aura" cx="160" cy="190" r="118" fill="#FCEAE4" opacity="0.75"/>
+                                
+                                <!-- Decorative Fresh Herb & Chili Garnish Behind Jar -->
+                                <path d="M76 268 C58 250, 62 222, 86 216 C92 238, 88 256, 76 268 Z" fill="#5C6F52" opacity="0.85"/>
+                                <path d="M244 268 C262 250, 258 222, 234 216 C228 238, 232 256, 244 268 Z" fill="#5C6F52" opacity="0.85"/>
+                                <path d="M62 284 C78 294, 102 292, 114 282 C98 280, 80 278, 62 284 Z" fill="#B84A27"/>
+
+                                <!-- Airtight Double-Lock Bamboo & Silicone Lid (Patent Item 3.1) -->
+                                <rect x="102" y="74" width="116" height="22" rx="8" fill="#D49A3A" stroke="#9E6E1F" stroke-width="1.8"/>
+                                <!-- Air-Release Valve Button on Lid -->
+                                <rect x="142" y="68" width="36" height="8" rx="4" fill="#231915"/>
+                                <!-- Silicone Seal Ring -->
+                                <rect x="106" y="96" width="108" height="8" rx="3" fill="#B84A27"/>
+
+                                <!-- Wide-Mouth Glass Jar Body (Design Patent Item 3.3) -->
+                                <rect x="92" y="104" width="136" height="188" rx="26" fill="#FFFFFF" fill-opacity="0.75" stroke="#C4B199" stroke-width="2.2"/>
+                                
+                                <!-- Crispy Chili Paste Filling Inside Jar (Dynamic Color) -->
+                                <path id="svg-filling" d="M98 134 H222 V268 C222 279, 213 286, 202 286 H118 C107 286, 98 279, 98 268 Z" fill="#B84A27" opacity="0.92"/>
+                                
+                                <!-- Crispy Texture Bits Inside Jar -->
+                                <g id="svg-crispy-bits" fill="#F9E3B8" opacity="0.75">
+                                    <circle cx="118" cy="148" r="3.5"/>
+                                    <circle cx="138" cy="144" r="4.5"/>
+                                    <circle cx="164" cy="150" r="3"/>
+                                    <circle cx="192" cy="145" r="4"/>
+                                    <circle cx="206" cy="154" r="3"/>
+                                    <circle cx="114" cy="264" r="4"/>
+                                    <circle cx="145" cy="272" r="3.5"/>
+                                    <circle cx="182" cy="268" r="4.5"/>
+                                    <circle cx="204" cy="260" r="3"/>
+                                    <ellipse cx="128" cy="156" rx="5" ry="2.5" transform="rotate(-15 128 156)"/>
+                                    <ellipse cx="184" cy="158" rx="5" ry="2.5" transform="rotate(20 184 158)"/>
+                                </g>
+
+                                <!-- Glass Reflection Highlights -->
+                                <path d="M106 118 V270" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" opacity="0.75"/>
+                                <path d="M214 118 V270" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
+
+                                <!-- Craft Paper Front Label (Copyright Item 1.2) -->
+                                <rect x="108" y="166" width="104" height="92" rx="8" fill="#FAF6F0" stroke="#D8C5AE" stroke-width="1.4"/>
+                                <rect x="113" y="171" width="94" height="82" rx="5" fill="none" stroke="#B84A27" stroke-width="0.8" stroke-dasharray="2.5 2"/>
+                                
+                                <!-- Brand & Flavor Typography on Jar Label -->
+                                <text x="160" y="187" text-anchor="middle" fill="#231915" font-size="8.5" font-weight="bold" letter-spacing="0.8">SIAM PRIK CRAFT</text>
+                                <line x1="130" y1="192" x2="190" y2="192" stroke="#D49A3A" stroke-width="1"/>
+                                <text id="svg-label-th" x="160" y="209" text-anchor="middle" fill="#9A3B1D" font-size="9.5" font-weight="bold">น้ำพริกกุ้งเสียบคั่วสมุนไพร</text>
+                                <text id="svg-label-en" x="160" y="222" text-anchor="middle" fill="#42513A" font-size="7" font-weight="bold">CRISPY SHRIMP &amp; HERBS</text>
+                                <rect x="132" y="230" width="56" height="13" rx="6.5" fill="#231915"/>
+                                <text id="svg-spice-badge" x="160" y="239" text-anchor="middle" fill="#F9E3B8" font-size="6.5" font-weight="bold">เผ็ดกลาง • 150g</text>
+                            </svg>
+
+                            <!-- Interactive Preview Caption -->
+                            <div class="mt-2 bg-white/95 px-4 py-1.5 rounded-full border border-cream-300 text-xs text-tamarind-800 font-medium shadow-2xs">
+                                คลิกเลือกรสชาติด้านขวาเพื่อดูสีน้ำพริกในโหลแก้วและฉลากเปลี่ยนแบบเรียลไทม์
+                            </div>
+                        </div>
+
+                        <!-- Target Customer Persona Card -->
+                        <div class="bg-sage-50 border border-sage-100 rounded-2xl p-4 sm:p-5 flex items-start gap-3.5">
+                            <div class="w-10 h-10 rounded-xl bg-sage-500 text-white flex items-center justify-center shrink-0 mt-0.5">
+                                <i data-lucide="users" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-tamarind-900">กลุ่มลูกค้าเป้าหมายหลัก (Target Audience)</h4>
+                                <p class="text-xs sm:text-sm text-sage-700 font-sarabun mt-1 leading-relaxed">
+                                    วัยทำงานยุคใหม่ ชาวออฟฟิศ นักศึกษาหอพัก และคนรักอาหารไทย อายุ <strong>20–42 ปี</strong> ที่ไม่มีเวลาทำกับข้าวในมื้อเร่งรีบ แต่อยากรับประทานอาหารรสชาติจัดจ้านถึงเครื่อง สะอาด ไร้น้ำมันเยิ้ม เก็บไว้ได้นานโดยไม่ต้องแช่เย็น และพกพาไปทานที่ทำงานหรือเดินทางต่างประเทศได้สะดวก
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Food Story, Interactive Flavor Selector, Price & Google Forms CTA -->
+                    <div class="lg:col-span-6 space-y-6">
+                        <div class="space-y-2.5">
+                            <div class="flex flex-wrap items-center gap-2">
+                                <span class="bg-chili-100 text-chili-700 border border-chili-200 text-xs font-semibold px-3 py-1 rounded-full">
+                                    Signature Single Product
+                                </span>
+                                <span class="bg-saffron-100 text-saffron-700 border border-saffron-200 text-xs font-medium px-3 py-1 rounded-full">
+                                    อบรีดน้ำมัน 95% • เก็บได้นาน 6 เดือน
+                                </span>
+                            </div>
+
+                            <h1 class="font-editorial text-2xl sm:text-3xl lg:text-4xl font-bold text-tamarind-900 leading-snug">
+                                ชุดน้ำพริกคราฟต์อบกรอบพรีเมียม <span class="text-chili-500 block sm:inline">ในกระปุกสุญญากาศ</span>
+                            </h1>
+
+                            <p class="text-tamarind-700 font-sarabun text-sm sm:text-base leading-relaxed pt-1">
+                                ยกระดับมื้อข้าวสวยร้อนๆ ให้พิเศษกว่าที่เคย ด้วยน้ำพริกคราฟต์สูตรคั่วเตาถ่านโบราณผสานเทคนิค<strong>อบลมร้อนรีดน้ำมันออก 95%</strong> ทำให้ได้เนื้อสัมผัสกรอบฟู หอมกลิ่นสมุนไพรไทยคั่วใหม่ ไม่เหม็นหืน ไม่ใส่ผงชูรสและวัตถุกันเสีย บรรจุใน<strong>กระปุกแก้วฝาล็อกสุญญากาศพร้อมวาล์วไล่อากาศ</strong> เปิดทานไม่หมดก็ปิดล็อกคงความกรอบได้เหมือนเพิ่งเปิดกระปุกใหม่
+                            </p>
+                        </div>
+
+                        <!-- 4 Culinary Highlights -->
+                        <div class="grid grid-cols-2 gap-3 text-xs sm:text-sm">
+                            <div class="flex items-center gap-2.5 bg-white p-3.5 rounded-2xl border border-cream-300/80">
+                                <i data-lucide="flame" class="w-4 h-4 text-chili-500 shrink-0"></i>
+                                <span class="font-medium text-tamarind-800">คั่วเตาถ่าน + อบรีดน้ำมัน 95%</span>
+                            </div>
+                            <div class="flex items-center gap-2.5 bg-white p-3.5 rounded-2xl border border-cream-300/80">
+                                <i data-lucide="shield-check" class="w-4 h-4 text-sage-500 shrink-0"></i>
+                                <span class="font-medium text-tamarind-800">ไร้ผงชูรส ไร้สารกันบูด 100%</span>
+                            </div>
+                            <div class="flex items-center gap-2.5 bg-white p-3.5 rounded-2xl border border-cream-300/80">
+                                <i data-lucide="lock" class="w-4 h-4 text-saffron-700 shrink-0"></i>
+                                <span class="font-medium text-tamarind-800">ฝาล็อกสุญญากาศคงความกรอบ</span>
+                            </div>
+                            <div class="flex items-center gap-2.5 bg-white p-3.5 rounded-2xl border border-cream-300/80">
+                                <i data-lucide="award" class="w-4 h-4 text-chili-500 shrink-0"></i>
+                                <span class="font-medium text-tamarind-800">วัตถุดิบท้องถิ่นคัดเกรดพรีเมียม</span>
+                            </div>
+                        </div>
+
+                        <!-- Interactive Flavor & Price Box -->
+                        <div class="bg-cream-100 border border-cream-300 rounded-3xl p-5 sm:p-6 space-y-5">
+                            <div class="flex items-end justify-between border-b border-cream-300/80 pb-4">
+                                <div>
+                                    <span class="text-xs text-sage-700 font-medium block">ราคาจำหน่ายมาตรฐาน (กระปุกใหญ่ 150 กรัม หรือคละ 3 กระปุกเล็ก)</span>
+                                    <div class="flex items-baseline gap-3 mt-1">
+                                        <span class="font-editorial text-3xl sm:text-4xl font-bold text-tamarind-900">฿290</span>
+                                        <span class="text-sm text-stone-400 line-through">฿350</span>
+                                        <span class="text-xs font-semibold bg-chili-100 text-chili-700 px-2.5 py-0.5 rounded-full">โปรเปิดร้านใหม่</span>
+                                    </div>
+                                </div>
+                                <span class="text-xs font-semibold text-sage-700 bg-white border border-sage-100 px-3 py-1.5 rounded-full">
+                                    อบสดใหม่ตามออเดอร์
+                                </span>
+                            </div>
+
+                            <!-- Interactive Flavor Selector (Updates Jar SVG) -->
+                            <div>
+                                <div class="flex items-center justify-between mb-2.5">
+                                    <label class="text-xs font-semibold text-tamarind-900">เลือกรสชาติซิกเนเจอร์ (คลิกเพื่อดูสีน้ำพริกในโหล):</label>
+                                    <span id="selected-flavor-note" class="text-[11px] text-chili-700 font-medium">กุ้งเสียบภูเก็ตตัวโตคั่วใบมะกรูดกรอบ</span>
+                                </div>
+                                <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5" id="flavor-selector">
+                                    <button type="button" onclick="selectFlavor(this, '1. น้ำพริกกุ้งเสียบคั่วสมุนไพรกรอบ', 'น้ำพริกกุ้งเสียบคั่วสมุนไพร', 'CRISPY SHRIMP & HERBS', '#B84A27', '#FCEAE4', 'เผ็ดกลาง • 150g', 'กุ้งเสียบภูเก็ตตัวโตคั่วใบมะกรูดกรอบ')" class="flavor-btn active border-2 border-tamarind-900 bg-white text-tamarind-900 rounded-2xl p-3 text-left transition-all shadow-2xs cursor-pointer">
+                                        <div class="flex items-center gap-2">
+                                            <span class="w-3 h-3 rounded-full bg-[#B84A27] border border-chili-700"></span>
+                                            <span class="text-xs font-bold">กุ้งเสียบสมุนไพร</span>
+                                        </div>
+                                        <span class="text-[11px] text-sage-700 block mt-0.5">เผ็ดกลาง • หอมใบมะกรูด</span>
+                                    </button>
+
+                                    <button type="button" onclick="selectFlavor(this, '2. น้ำพริกเห็ดหอมทรัฟเฟิลเจ', 'น้ำพริกเห็ดหอมทรัฟเฟิลเจ', 'TRUFFLE SHIITAKE (VEGAN)', '#6E4735', '#F3EAE4', 'เผ็ดน้อย • 150g', 'สูตรเจ 100% หอมกลิ่นเห็ดทรัฟเฟิลนำเข้า')" class="flavor-btn border border-cream-300 bg-white/80 text-tamarind-700 hover:border-chili-400 rounded-2xl p-3 text-left transition-all cursor-pointer">
+                                        <div class="flex items-center gap-2">
+                                            <span class="w-3 h-3 rounded-full bg-[#6E4735] border border-stone-600"></span>
+                                            <span class="text-xs font-bold">เห็ดหอมทรัฟเฟิลเจ</span>
+                                        </div>
+                                        <span class="text-[11px] text-sage-700 block mt-0.5">เผ็ดน้อย • มังสวิรัติทานได้</span>
+                                    </button>
+
+                                    <button type="button" onclick="selectFlavor(this, '3. น้ำพริกปลาสลิดกรอบต้มยำแห้ง', 'น้ำพริกปลาสลิดต้มยำแห้ง', 'CRISPY GOURAMI TOM YUM', '#C86D2D', '#FDF0E4', 'เผ็ดจัดจ้าน • 150g', 'เนื้อปลาสลิดบางบ่อฟูกรอบคลุกเครื่องต้มยำ')" class="flavor-btn border border-cream-300 bg-white/80 text-tamarind-700 hover:border-chili-400 rounded-2xl p-3 text-left transition-all cursor-pointer">
+                                        <div class="flex items-center gap-2">
+                                            <span class="w-3 h-3 rounded-full bg-[#C86D2D] border border-amber-700"></span>
+                                            <span class="text-xs font-bold">ปลาสลิดต้มยำแห้ง</span>
+                                        </div>
+                                        <span class="text-[11px] text-sage-700 block mt-0.5">เผ็ดจัดจ้าน • แซ่บถึงเครื่อง</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Primary CTA Button: ทดลองสั่งซื้อ (เชื่อมต่อ Google Forms) -->
+                            <div class="pt-1 flex flex-col sm:flex-row gap-3">
+                                <button onclick="openOrderModal()" class="flex-1 bg-chili-500 hover:bg-chili-600 text-white font-semibold py-4 px-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-2.5 text-base cursor-pointer active:scale-[0.99]">
+                                    <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+                                    <span>ทดลองสั่งซื้อ (บันทึกเข้า Google Forms)</span>
+                                </button>
+                                <button onclick="openGoogleFormsConfigModal()" class="bg-white hover:bg-cream-200/60 text-tamarind-900 border border-cream-300 font-medium py-4 px-4 rounded-2xl transition-all flex items-center justify-center gap-2 text-xs sm:text-sm cursor-pointer" title="ตั้งค่าลิงก์ Google Forms จริง">
+                                    <i data-lucide="settings-2" class="w-4 h-4 text-sage-700"></i>
+                                    <span>ตั้งค่า Google Forms</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Quick Navigation Cards to Other 3 Deliverables -->
+                        <div class="pt-2">
+                            <p class="text-[11px] font-semibold text-sage-700 uppercase tracking-wider mb-2.5">เอกสารประกอบการเปิดร้านอาหาร (คลิกเพื่อเปิดดูแต่ละชิ้นงาน):</p>
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                                <button onclick="navigateTo('proposal')" class="text-left p-3.5 rounded-2xl bg-white hover:bg-cream-100 border border-cream-300 hover:border-chili-400 transition-all group cursor-pointer">
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-[11px] font-bold text-chili-600">ชิ้นงานที่ 1 (3 คะแนน)</span>
+                                        <i data-lucide="arrow-up-right" class="w-3.5 h-3.5 text-stone-400 group-hover:text-chili-600"></i>
+                                    </div>
+                                    <p class="text-xs font-semibold text-tamarind-900 mt-1">ข้อเสนอโครงการ 1 หน้า</p>
+                                </button>
+                                <button onclick="navigateTo('ip-portfolio')" class="text-left p-3.5 rounded-2xl bg-white hover:bg-cream-100 border border-cream-300 hover:border-chili-400 transition-all group cursor-pointer">
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-[11px] font-bold text-chili-600">ชิ้นงานที่ 3 (9 คะแนน)</span>
+                                        <i data-lucide="arrow-up-right" class="w-3.5 h-3.5 text-stone-400 group-hover:text-chili-600"></i>
+                                    </div>
+                                    <p class="text-xs font-semibold text-tamarind-900 mt-1">แฟ้มวิเคราะห์ IP 12 ตัวอย่าง</p>
+                                </button>
+                                <button onclick="navigateTo('action-plan')" class="text-left p-3.5 rounded-2xl bg-white hover:bg-cream-100 border border-cream-300 hover:border-chili-400 transition-all group cursor-pointer">
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-[11px] font-bold text-chili-600">ชิ้นงานที่ 4 (3 คะแนน)</span>
+                                        <i data-lucide="arrow-up-right" class="w-3.5 h-3.5 text-stone-400 group-hover:text-chili-600"></i>
+                                    </div>
+                                    <p class="text-xs font-semibold text-tamarind-900 mt-1">ข้อเสนอจริงจังก่อนเปิดขาย</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================================================== -->
+        <!-- SECTION 1: EXECUTIVE PROJECT PROPOSAL (ชิ้นงานที่ 1: ข้อเสนอโครงการ 1 หน้า) -->
+        <!-- ===================================================================== -->
+        <section id="section-proposal" class="deliverable-section hidden animate-fade-in">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+                <div class="inline-flex items-center gap-2 bg-cream-200/90 text-tamarind-800 border border-cream-300 px-3.5 py-1 rounded-full text-xs font-medium">
+                    <span class="w-2 h-2 rounded-full bg-chili-500"></span>
+                    <span>ชิ้นงานที่ 1: ข้อเสนอโครงการ 1 หน้า (Executive One-Pager — เกณฑ์ 3 คะแนน)</span>
+                </div>
+                <span class="text-xs text-sage-700">ระบุชื่อร้าน สินค้า กลุ่มลูกค้า ช่องทางขาย Pain point ประเด็น IP และหน้าที่สมาชิก 5 คน</span>
+            </div>
+
+            <div class="bg-cream-50 rounded-[2rem] shadow-sm border border-cream-300 p-6 sm:p-10 lg:p-12 space-y-8">
+                <!-- Executive Header -->
+                <div class="border-b border-cream-300 pb-6 flex flex-col md:flex-row md:items-end justify-between gap-4">
+                    <div>
+                        <span class="text-xs font-semibold text-chili-600 uppercase tracking-[0.15em]">Executive Project Proposal</span>
+                        <h2 class="font-editorial text-2xl sm:text-3xl font-bold text-tamarind-900 mt-1">ข้อเสนอโครงการร้านอาหารออนไลน์: SIAM PRIK CRAFT</h2>
+                        <p class="text-sm text-sage-700 mt-1">รายวิชา [001407] ทรัพย์สินทางปัญญาในธุรกิจดิจิทัล | โครงการ 3 ชั่วโมง (180 นาที)</p>
+                    </div>
+                    <div class="bg-white border border-cream-300 px-4 py-3 rounded-2xl text-xs space-y-1 shadow-2xs">
+                        <div class="font-semibold text-tamarind-900">โมเดลธุรกิจ: Direct-to-Consumer (D2C Food)</div>
+                        <div class="text-chili-700">สินค้าหลัก 1 ชนิด: ชุดน้ำพริกคราฟต์อบกรอบพรีเมียม (290 บาท)</div>
+                    </div>
+                </div>
+
+                <!-- Grid: Business Concept, Customer Pain Point & Channels -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white rounded-2xl p-6 border border-cream-300/90 space-y-3">
+                        <div class="flex items-center gap-2.5 text-tamarind-900 font-bold text-base">
+                            <div class="w-9 h-9 rounded-xl bg-chili-100 text-chili-600 flex items-center justify-center shrink-0">
+                                <i data-lucide="utensils" class="w-4 h-4"></i>
+                            </div>
+                            <h3>1. ชื่อร้าน & สินค้าที่จำหน่าย</h3>
+                        </div>
+                        <p class="text-sm text-tamarind-700 font-sarabun leading-relaxed">
+                            ร้าน <strong>SIAM PRIK CRAFT (สยามพริกคราฟต์)</strong> จำหน่ายสินค้า 1 ชนิดคือ <strong>"ชุดน้ำพริกคราฟต์อบกรอบพรีเมียมในกระปุกสุญญากาศ"</strong> (150 กรัม ราคา 290 บาท) มี 3 รสชาติซิกเนเจอร์ ผลิตด้วยการคั่วเตาถ่านและอบลมร้อนรีดน้ำมันออก 95% เพื่อความกรอบฟู สะอาด และเก็บรักษาได้นาน 6 เดือน
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl p-6 border border-cream-300/90 space-y-3">
+                        <div class="flex items-center gap-2.5 text-tamarind-900 font-bold text-base">
+                            <div class="w-9 h-9 rounded-xl bg-sage-100 text-sage-700 flex items-center justify-center shrink-0">
+                                <i data-lucide="heart-handshake" class="w-4 h-4"></i>
+                            </div>
+                            <h3>2. กลุ่มลูกค้า & เหตุผลที่ต้องซื้อ</h3>
+                        </div>
+                        <p class="text-sm text-tamarind-700 font-sarabun leading-relaxed">
+                            <strong>วัยทำงานออฟฟิศ นักศึกษาหอพัก และสายรักอาหารไทย (อายุ 20–42 ปี)</strong> ที่เผชิญปัญหา (Pain Point) ไม่มีเวลาทำกับข้าวในมื้อเร่งรีบ เบื่ออาหารสำเร็จรูปที่จืดชืดหรือมีผงชูรสสูง จึงต้องการน้ำพริกรสชาติจัดจ้านถึงเครื่อง ไร้น้ำมันเยิ้ม ไม่ต้องแช่เย็น และพกพาไปทานที่ทำงานหรือต่างประเทศได้สะดวก
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl p-6 border border-cream-300/90 space-y-3">
+                        <div class="flex items-center gap-2.5 text-tamarind-900 font-bold text-base">
+                            <div class="w-9 h-9 rounded-xl bg-saffron-100 text-saffron-700 flex items-center justify-center shrink-0">
+                                <i data-lucide="globe" class="w-4 h-4"></i>
+                            </div>
+                            <h3>3. ช่องทางการจำหน่าย</h3>
+                        </div>
+                        <p class="text-sm text-tamarind-700 font-sarabun leading-relaxed">
+                            จำหน่ายผ่าน <strong>เว็บไซต์หน้าร้านของแบรนด์ (SIAM PRIK CRAFT Official Web)</strong> เชื่อมต่อระบบรับออเดอร์ผ่าน <strong>Google Forms / Google Sheets</strong> เพื่อจัดการคำสั่งซื้ออย่างเป็นระบบ ควบคู่กับ <strong>LINE OA</strong> และ <strong>TikTok Shop</strong> สำหรับทำคลิปรีวิวเสียงเคี้ยวกรอบ (ASMR) และจัดส่งทั่วประเทศ
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Critical IP Decisions Before Launch -->
+                <div class="bg-cream-100 border border-cream-300 rounded-3xl p-6 sm:p-7 space-y-4">
+                    <div class="flex items-center gap-2.5 text-tamarind-900 font-bold text-base">
+                        <div class="w-9 h-9 rounded-xl bg-tamarind-900 text-saffron-200 flex items-center justify-center shrink-0">
+                            <i data-lucide="scale" class="w-4 h-4"></i>
+                        </div>
+                        <h3>4. ประเด็นเรื่องทรัพย์สินทางปัญญาที่ต้องตัดสินใจก่อนเปิดขายจริง</h3>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm font-sarabun">
+                        <div class="bg-white p-5 rounded-2xl border border-cream-300/80 space-y-1.5">
+                            <span class="font-bold text-chili-700 block">① การเช็กชื่อแบรนด์และโลโก้ซ้ำ</span>
+                            <p class="text-tamarind-700 text-xs sm:text-sm leading-relaxed">ต้องสืบค้นฐานข้อมูลกรมทรัพย์สินทางปัญญา (DIP) ในจำพวกที่ 29 และ 30 (อาหารแปรรูป/เครื่องปรุงรส/น้ำพริก) ก่อนสั่งพิมพ์ฉลากกระปุก เพื่อป้องกันชื่อ "SIAM PRIK CRAFT" และโลโก้ไปพ้องคล้ายกับแบรนด์อื่น</p>
+                        </div>
+                        <div class="bg-white p-5 rounded-2xl border border-cream-300/80 space-y-1.5">
+                            <span class="font-bold text-chili-700 block">② การคุ้มครองสูตรลับและสัดส่วนการคั่วพริก</span>
+                            <p class="text-tamarind-700 text-xs sm:text-sm leading-relaxed">ตัดสินใจไม่จดสิทธิบัตรสูตรอาหาร (เพราะต้องเปิดเผยสูตรต่อสาธารณะ) แต่เลือกคุ้มครองเป็น <strong>"ความลับทางการค้า"</strong> โดยระบุเพียงส่วนประกอบหลักบนฉลาก อย. และทำสัญญา NDA กับครัวกลางผู้ผลิต</p>
+                        </div>
+                        <div class="bg-white p-5 rounded-2xl border border-cream-300/80 space-y-1.5">
+                            <span class="font-bold text-chili-700 block">③ การออกแบบกระปุกฝาล็อกสุญญากาศและภาพอาหาร</span>
+                            <p class="text-tamarind-700 text-xs sm:text-sm leading-relaxed">ต้องตรวจสอบความใหม่ของกลไกฝาไล่อากาศและรูปทรงกระปุกก่อนเผยแพร่ภาพสินค้า (เพื่อรักษาสิทธิ์ยื่นขออนุสิทธิบัตร/สิทธิบัตรการออกแบบ) รวมถึงถ่ายภาพอาหารและวาดกราฟิกฉลากเองทั้งหมดเพื่อถือครองลิขสิทธิ์ 100%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Roles (5 Members) -->
+                <div class="space-y-3">
+                    <div class="flex flex-wrap items-center justify-between gap-2">
+                        <h3 class="font-bold text-base text-tamarind-900 flex items-center gap-2">
+                            <i data-lucide="users-round" class="w-5 h-5 text-chili-600"></i>
+                            <span>5. การแบ่งหน้าที่ความรับผิดชอบของสมาชิกกลุ่ม (5 คน)</span>
+                        </h3>
+                        <span class="text-xs text-sage-700">การทำงานร่วมกันภายในเวลา 180 นาที</span>
+                    </div>
+                    <div class="overflow-x-auto border border-cream-300 rounded-2xl bg-white">
+                        <table class="w-full text-left border-collapse text-sm">
+                            <thead>
+                                <tr class="bg-tamarind-900 text-cream-50 text-xs">
+                                    <th class="py-3.5 px-4 font-semibold">สมาชิก / บทบาท</th>
+                                    <th class="py-3.5 px-4 font-semibold">หน้าที่หลักในการสร้างร้านอาหาร</th>
+                                    <th class="py-3.5 px-4 font-semibold">ความรับผิดชอบด้านทรัพย์สินทางปัญญา</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-cream-200 font-sarabun text-xs sm:text-sm">
+                                <tr class="hover:bg-cream-50">
+                                    <td class="py-3 px-4 font-semibold text-tamarind-900">คนที่ 1: หัวหน้าโครงการ (Project Lead)</td>
+                                    <td class="py-3 px-4 text-tamarind-700">กำหนดแนวคิดร้าน กลุ่มลูกค้าเป้าหมาย เขียนข้อเสนอโครงการ 1 หน้า และบริหารเวลา</td>
+                                    <td class="py-3 px-4 text-chili-700 font-medium">รับผิดชอบข้อเสนอจริงจังก่อนเปิดขาย (ชิ้นงานที่ 4)</td>
+                                </tr>
+                                <tr class="hover:bg-cream-50">
+                                    <td class="py-3 px-4 font-semibold text-tamarind-900">คนที่ 2: นักพัฒนาเว็บ (Web & Forms Dev)</td>
+                                    <td class="py-3 px-4 text-tamarind-700">พัฒนาเว็บแอปต้นแบบหน้าร้าน ระบบเลือกรสชาติ และเชื่อมต่อระบบรับออเดอร์ Google Forms</td>
+                                    <td class="py-3 px-4 text-chili-700 font-medium">ตรวจสอบไลเซนส์ฟอนต์ โค้ด และคุ้มครองข้อมูลลูกค้า (PDPA)</td>
+                                </tr>
+                                <tr class="hover:bg-cream-50">
+                                    <td class="py-3 px-4 font-semibold text-tamarind-900">คนที่ 3: นักออกแบบแบรนด์ (Brand Designer)</td>
+                                    <td class="py-3 px-4 text-tamarind-700">ออกแบบโลโก้ ภาพประกอบกระปุกน้ำพริก ฉลากบรรจุภัณฑ์ และภาพร่างสิทธิบัตร</td>
+                                    <td class="py-3 px-4 text-chili-700 font-medium">ดูแลหมวดเครื่องหมายการค้า & สิทธิบัตรการออกแบบ</td>
+                                </tr>
+                                <tr class="hover:bg-cream-50">
+                                    <td class="py-3 px-4 font-semibold text-tamarind-900">คนที่ 4: ฝ่ายพัฒนาสูตรอาหาร (Culinary R&D)</td>
+                                    <td class="py-3 px-4 text-tamarind-700">พัฒนาสูตรน้ำพริก 3 รสชาติ กรรมวิธีอบรีดน้ำมัน 95% และคัดเลือกแหล่งวัตถุดิบ</td>
+                                    <td class="py-3 px-4 text-chili-700 font-medium">ดูแลหมวดสิทธิบัตร & ความลับทางการค้า (6 ตัวอย่าง)</td>
+                                </tr>
+                                <tr class="hover:bg-cream-50">
+                                    <td class="py-3 px-4 font-semibold text-tamarind-900">คนที่ 5: ฝ่ายคอนเทนต์และสาธิต (Content & Demo)</td>
+                                    <td class="py-3 px-4 text-tamarind-700">เขียนคำบรรยายรสชาติอาหาร คู่มือการเก็บรักษา และนำเสนอสาธิต 5 นาที</td>
+                                    <td class="py-3 px-4 text-chili-700 font-medium">ดูแลหมวดลิขสิทธิ์ (3 ตัวอย่าง) และตรวจความพร้อมเผยแพร่</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================================================== -->
+        <!-- SECTION 3: IP ANALYSIS PORTFOLIO (ชิ้นงานที่ 3: แฟ้มวิเคราะห์ 12 ตัวอย่าง) -->
+        <!-- ===================================================================== -->
+        <section id="section-ip-portfolio" class="deliverable-section hidden animate-fade-in">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+                <div class="inline-flex items-center gap-2 bg-cream-200/90 text-tamarind-800 border border-cream-300 px-3.5 py-1 rounded-full text-xs font-medium">
+                    <span class="w-2 h-2 rounded-full bg-chili-500"></span>
+                    <span>ชิ้นงานที่ 3: แฟ้มวิเคราะห์ทรัพย์สินทางปัญญา 12 ตัวอย่าง (เกณฑ์ 9 คะแนน)</span>
+                </div>
+                <span class="text-xs text-sage-700">ครบทั้ง 4 ประเภท (ประเภทละ 3 รายการ) พร้อมภาพร่าง/ภาพประกอบ แหล่งที่มา และสถานะความพร้อม</span>
+            </div>
+
+            <div class="bg-cream-50 rounded-[2rem] shadow-sm border border-cream-300 p-6 sm:p-10 space-y-6">
+                <!-- Header & Category Filter Pills -->
+                <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-b border-cream-300 pb-6">
+                    <div>
+                        <span class="text-xs font-semibold text-chili-600 uppercase tracking-[0.15em]">Intellectual Property Audit</span>
+                        <h2 class="font-editorial text-2xl sm:text-3xl font-bold text-tamarind-900 mt-1">แฟ้มวิเคราะห์ทรัพย์สินทางปัญญา (12 รายการ)</h2>
+                        <p class="text-sm text-tamarind-700 font-sarabun mt-1">
+                            วิเคราะห์องค์ประกอบทั้งหมดของร้านอาหาร <strong>SIAM PRIK CRAFT</strong> ครบ 4 ประเภทตามตารางเกณฑ์รายวิชา
+                        </p>
+                    </div>
+
+                    <!-- Interactive Filter Buttons -->
+                    <div class="flex flex-wrap gap-2" id="ip-filter-group">
+                        <button onclick="filterIP('all', this)" class="ip-filter-btn active px-4 py-2 rounded-full text-xs font-semibold bg-tamarind-900 text-white transition-all cursor-pointer">
+                            ทั้งหมด (12)
+                        </button>
+                        <button onclick="filterIP('copyright', this)" class="ip-filter-btn px-4 py-2 rounded-full text-xs font-semibold bg-blue-50 text-blue-900 border border-blue-200 hover:bg-blue-100 transition-all cursor-pointer">
+                            1. ลิขสิทธิ์ (3)
+                        </button>
+                        <button onclick="filterIP('trademark', this)" class="ip-filter-btn px-4 py-2 rounded-full text-xs font-semibold bg-purple-50 text-purple-900 border border-purple-200 hover:bg-purple-100 transition-all cursor-pointer">
+                            2. เครื่องหมายการค้า (3)
+                        </button>
+                        <button onclick="filterIP('patent', this)" class="ip-filter-btn px-4 py-2 rounded-full text-xs font-semibold bg-amber-50 text-amber-900 border border-amber-200 hover:bg-amber-100 transition-all cursor-pointer">
+                            3. สิทธิบัตร (3)
+                        </button>
+                        <button onclick="filterIP('tradesecret', this)" class="ip-filter-btn px-4 py-2 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-900 border border-emerald-200 hover:bg-emerald-100 transition-all cursor-pointer">
+                            4. ความลับทางการค้า (3)
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Summary Criteria Reference Bar -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs bg-white p-4 rounded-2xl border border-cream-300/80">
+                    <div>
+                        <span class="font-bold text-blue-900 block">📘 ลิขสิทธิ์ (Copyright)</span>
+                        <span class="text-tamarind-700 font-sarabun">ระบุผลงาน ใครสร้าง สิทธิแก้ไข/โฆษณา และแหล่งที่มา/เงื่อนไข</span>
+                    </div>
+                    <div>
+                        <span class="font-bold text-purple-900 block">🏷️ เครื่องหมายการค้า (Trademark)</span>
+                        <span class="text-tamarind-700 font-sarabun">ระบุวิธีแยกแยะสินค้า และผลการตรวจความคล้ายคลึงกับผู้อื่น</span>
+                    </div>
+                    <div>
+                        <span class="font-bold text-amber-900 block">⚙️ สิทธิบัตร (Patent)</span>
+                        <span class="text-tamarind-700 font-sarabun">ระบุกลไก/รูปทรงที่คุ้มครอง เทียบของเดิม หรือสถานะยังไม่ตรวจ</span>
+                    </div>
+                    <div>
+                        <span class="font-bold text-emerald-900 block">🔒 ความลับทางการค้า (Trade Secret)</span>
+                        <span class="text-tamarind-700 font-sarabun">ระบุสูตร/ข้อมูลสำคัญที่ไม่เปิดเผย และมาตรการเก็บรักษาความลับ</span>
+                    </div>
+                </div>
+
+                <!-- 12 IP Cards Grid -->
+                <div id="ip-cards-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Rendered dynamically via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================================================== -->
+        <!-- SECTION 4: CRITICAL PRIORITY ACTION (ชิ้นงานที่ 4: ข้อเสนอจริงจัง 1 ย่อหน้า) -->
+        <!-- ===================================================================== -->
+        <section id="section-action-plan" class="deliverable-section hidden animate-fade-in">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+                <div class="inline-flex items-center gap-2 bg-cream-200/90 text-tamarind-800 border border-cream-300 px-3.5 py-1 rounded-full text-xs font-medium">
+                    <span class="w-2 h-2 rounded-full bg-chili-500"></span>
+                    <span>ชิ้นงานที่ 4: ข้อเสนอจริงจังของร้าน 1 ย่อหน้า (เกณฑ์ 3 คะแนน)</span>
+                </div>
+                <span class="text-xs text-sage-700">จัดลำดับความสำคัญเร่งด่วนอันดับ 1 ก่อนเปิดขายจริง</span>
+            </div>
+
+            <div class="bg-cream-50 rounded-[2rem] shadow-sm border border-cream-300 p-6 sm:p-10 lg:p-12 space-y-6">
+                <div class="flex items-start gap-4 border-b border-cream-300 pb-6">
+                    <div class="w-12 h-12 rounded-2xl bg-chili-100 text-chili-700 border border-chili-200 flex items-center justify-center shrink-0">
+                        <i data-lucide="shield-alert" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-[0.15em] text-chili-600">Priority #1 Pre-Launch Action</span>
+                        <h2 class="font-editorial text-2xl sm:text-3xl font-bold text-tamarind-900 mt-1">
+                            การตรวจค้นความเหมือนคล้ายและยื่นจดทะเบียนเครื่องหมายการค้า "SIAM PRIK CRAFT" (ชื่อร้านและโลโก้)
+                        </h2>
+                    </div>
+                </div>
+
+                <!-- Luxury Callout Box (1 Concise, Powerful Paragraph as Required) -->
+                <div class="bg-white border-2 border-chili-400/80 rounded-3xl p-6 sm:p-9 shadow-sm relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-1.5 h-full bg-chili-500"></div>
+                    <div class="flex items-center gap-2 text-xs font-bold text-chili-700 uppercase tracking-wider mb-3">
+                        <i data-lucide="file-text" class="w-4 h-4"></i>
+                        <span>ข้อเสนอจริงจังของร้าน (ฉบับสมบูรณ์ 1 ย่อหน้า)</span>
+                    </div>
+                    <p class="text-base sm:text-lg text-tamarind-900 font-sarabun leading-loose indent-8">
+                        รายการเร่งด่วนอันดับที่ 1 ที่ร้าน <strong>SIAM PRIK CRAFT (สยามพริกคราฟต์)</strong> ต้องดำเนินการให้เสร็จสิ้นก่อนเปิดจำหน่ายจริง คือ <strong>"การสืบค้นความเหมือนคล้ายและยื่นคำขอจดทะเบียนเครื่องหมายการค้าสำหรับชื่อแบรนด์ 'SIAM PRIK CRAFT' และโลโก้รูปพริกผสานใบมะกรูด กับกรมทรัพย์สินทางปัญญา (DIP) ในจำพวกที่ 29 และ 30 (สินค้าอาหารแปรรูป น้ำพริก และเครื่องปรุงรส)"</strong> เหตุผลที่ต้องจัดลำดับความสำคัญเป็นอันดับแรกเนื่องจากชื่อและโลโก้เป็นอัตลักษณ์หลักที่จะถูกพิมพ์ลงบนฉลากกระปุกสุญญากาศ สติกเกอร์ซีลฝา และบรรจุภัณฑ์ล็อตแรกทั้งหมดก่อนเริ่มผลิตจำหน่าย รวมถึงใช้เป็นชื่อบัญชีร้านค้าออนไลน์และแบบฟอร์มรับออเดอร์ โดยมอบหมายให้ <strong>สมาชิกคนที่ 3 (ฝ่ายออกแบบแบรนด์) ร่วมกับหัวหน้าโครงการ</strong> เป็นผู้รับผิดชอบหลักในการตรวจสอบความซ้ำซ้อนผ่านระบบฐานข้อมูลกรมทรัพย์สินทางปัญญาและยื่นจดทะเบียนผ่านระบบ e-Filing ภายใน 7 วันก่อนสั่งพิมพ์บรรจุภัณฑ์ ซึ่งหากละเลยไม่ดำเนินการขั้นตอนนี้ก่อนเปิดขาย แล้วปรากฏว่าชื่อหรือโลโก้ไปพ้องหรือคล้ายคลึงกับเครื่องหมายการค้าอาหารของผู้อื่นที่จดทะเบียนไว้ก่อน ร้านจะเสี่ยงต่อการถูกฟ้องร้องดำเนินคดีฐานละเมิดเครื่องหมายการค้า ถูกสั่งระงับการจำหน่ายและปิดหน้าร้านออนไลน์ทันที รวมถึงต้องแบกรับความเสียหายจากการรื้อทำลายสต็อกฉลากและกระปุกสินค้าที่ผลิตไปแล้วทั้งหมดซึ่งกระทบต่อเงินทุนและความน่าเชื่อถือของแบรนด์อาหารอย่างร้ายแรง
+                    </p>
+                </div>
+
+                <!-- 3 Key Takeaways Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+                    <div class="bg-white p-5 rounded-2xl border border-cream-300">
+                        <span class="text-xs font-bold text-chili-700 block mb-1">1. ทำไมต้องทำเป็นอันดับแรก?</span>
+                        <p class="text-xs sm:text-sm text-tamarind-700 font-sarabun leading-relaxed">เพราะชื่อและโลโก้ต้องพิมพ์ลงบนฉลากกระปุกและซีลบรรจุภัณฑ์อาหารล็อตแรก หากต้องเปลี่ยนภายหลังจะสูญเสียต้นทุนการผลิตทั้งหมด</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-2xl border border-cream-300">
+                        <span class="text-xs font-bold text-sage-700 block mb-1">2. ใครเป็นผู้รับผิดชอบหลัก?</span>
+                        <p class="text-xs sm:text-sm text-tamarind-700 font-sarabun leading-relaxed">สมาชิกคนที่ 3 (Brand Designer) ร่วมกับหัวหน้าโครงการ สืบค้นฐานข้อมูล DIP จำพวก 29/30 และยื่นคำขอจดทะเบียน</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-2xl border border-cream-300">
+                        <span class="text-xs font-bold text-rose-700 block mb-1">3. ผลกระทบหากไม่จัดการ?</span>
+                        <p class="text-xs sm:text-sm text-tamarind-700 font-sarabun leading-relaxed">เสี่ยงถูกฟ้องละเมิดเครื่องหมายการค้า ถูกสั่งระงับการขาย/ปิดช่องทางออนไลน์ และต้องทำลายสต็อกกระปุกที่ติดฉลากไปแล้วทั้งหมด</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Boutique Gastronomy Footer -->
+    <footer class="bg-tamarind-900 text-cream-300 py-10 mt-16 border-t border-tamarind-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+            <div class="flex items-center gap-2.5">
+                <span class="font-editorial text-base font-bold text-white">SIAM PRIK CRAFT</span>
+                <span class="text-tamarind-700">|</span>
+                <span>รายวิชา [001407] ทรัพย์สินทางปัญญาในธุรกิจดิจิทัล</span>
+            </div>
+            <div class="text-cream-300/70">
+                ผลงานต้นฉบับ 100% พร้อมระบบบันทึกข้อมูลคำสั่งซื้อเข้า Google Forms
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===================================================================== -->
+    <!-- MODAL 1: DEMO CHECKOUT + GOOGLE FORMS INTEGRATION                     -->
+    <!-- ===================================================================== -->
+    <div id="order-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-tamarind-900/65 backdrop-blur-xs p-4 overflow-y-auto">
+        <div class="bg-cream-50 rounded-3xl max-w-lg w-full shadow-2xl border border-cream-300 overflow-hidden animate-fade-in my-8">
+            <!-- Modal Header -->
+            <div class="bg-tamarind-900 text-cream-50 px-6 py-4 flex items-center justify-between">
+                <div class="flex items-center gap-2.5">
+                    <i data-lucide="shopping-bag" class="w-5 h-5 text-saffron-500"></i>
+                    <div>
+                        <h3 class="font-editorial font-bold text-base sm:text-lg">ทดลองสั่งซื้อน้ำพริกคราฟต์</h3>
+                        <span class="text-[11px] text-saffron-200 flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                            เชื่อมต่อระบบบันทึกข้อมูล Google Forms
+                        </span>
+                    </div>
+                </div>
+                <button onclick="closeOrderModal()" class="text-cream-300 hover:text-white p-1 rounded-lg cursor-pointer">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+
+            <!-- Checkout Form -->
+            <form id="demo-order-form" onsubmit="submitDemoOrder(event)" class="p-6 space-y-4">
+                <!-- Selected Item Summary -->
+                <div class="bg-white border border-cream-300 rounded-2xl p-4 flex items-center justify-between">
+                    <div>
+                        <span class="text-xs font-bold text-tamarind-900 block">ชุดน้ำพริกคราฟต์อบกรอบสุญญากาศ (150g)</span>
+                        <span id="modal-flavor-display" class="text-xs text-chili-700 font-medium">รสชาติ: 1. น้ำพริกกุ้งเสียบคั่วสมุนไพรกรอบ</span>
+                    </div>
+                    <div class="text-right">
+                        <span class="font-editorial font-bold text-tamarind-900 text-lg" id="modal-total-price">฿290</span>
+                        <span class="block text-[11px] text-sage-700">ส่งฟรีทั่วไทย</span>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-semibold text-tamarind-800 mb-1">ชื่อ-นามสกุลผู้รับ *</label>
+                        <input type="text" id="cust-name" required value="คุณณัฐพล รัตนโชติ" class="w-full px-3.5 py-2.5 rounded-xl border border-cream-300 bg-white text-sm focus:outline-none focus:border-chili-500">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-tamarind-800 mb-1">เบอร์โทร / LINE ID *</label>
+                        <input type="text" id="cust-phone" required value="089-456-7890 (Line: nat.rc)" class="w-full px-3.5 py-2.5 rounded-xl border border-cream-300 bg-white text-sm focus:outline-none focus:border-chili-500">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-semibold text-tamarind-800 mb-1">จำนวนที่สั่งซื้อ (กระปุก)</label>
+                        <select id="cust-qty" onchange="updateModalPrice()" class="w-full px-3.5 py-2.5 rounded-xl border border-cream-300 bg-white text-sm focus:outline-none focus:border-chili-500">
+                            <option value="1">1 กระปุก (฿290)</option>
+                            <option value="2">2 กระปุก (฿580)</option>
+                            <option value="3">3 กระปุก ครบทุกรส (฿870)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-tamarind-800 mb-1">ช่องทางชำระเงินจำลอง</label>
+                        <select id="cust-payment" class="w-full px-3.5 py-2.5 rounded-xl border border-cream-300 bg-white text-sm focus:outline-none focus:border-chili-500">
+                            <option value="Thai QR PromptPay">Thai QR PromptPay</option>
+                            <option value="โอนผ่านธนาคาร">โอนผ่านธนาคาร</option>
+                            <option value="เก็บเงินปลายทาง (COD)">เก็บเงินปลายทาง (COD)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold text-tamarind-800 mb-1">ที่อยู่จัดส่งสินค้า *</label>
+                    <textarea id="cust-address" rows="2" required class="w-full px-3.5 py-2.5 rounded-xl border border-cream-300 bg-white text-sm focus:outline-none focus:border-chili-500">129/45 อาคารสำนักงานสีลมคอมเพล็กซ์ ชั้น 14 ถ.สีลม แขวงสีลม เขตบางรัก กรุงเทพฯ 10500</textarea>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold text-tamarind-800 mb-1">หมายเหตุเพิ่มเติมถึงร้าน (ระดับความเผ็ด/เวลาจัดส่ง)</label>
+                    <input type="text" id="cust-note" value="ขอช้อนไม้ตักน้ำพริกเพิ่ม 1 คันครับ" class="w-full px-3.5 py-2.5 rounded-xl border border-cream-300 bg-white text-sm focus:outline-none focus:border-chili-500">
+                </div>
+
+                <!-- Google Forms Connection Status Pill -->
+                <div class="bg-sage-50 p-3 rounded-xl border border-sage-200 text-[11px] text-sage-700 flex items-center justify-between gap-2">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="file-spreadsheet" class="w-4 h-4 text-sage-700 shrink-0"></i>
+                        <span id="gform-mode-indicator">สถานะ: พร้อมส่งข้อมูลเข้า Google Forms (โหมดจำลอง & บันทึกตาราง)</span>
+                    </div>
+                    <button type="button" onclick="closeOrderModal(); openGoogleFormsConfigModal();" class="underline font-semibold text-chili-700 shrink-0 cursor-pointer">
+                        ผูกฟอร์มจริง
+                    </button>
+                </div>
+
+                <div class="flex items-center gap-3 pt-2">
+                    <button type="button" onclick="closeOrderModal()" class="flex-1 py-3 px-4 rounded-xl border border-cream-300 bg-white text-tamarind-800 text-sm font-medium hover:bg-cream-100 cursor-pointer">
+                        ยกเลิก
+                    </button>
+                    <button type="submit" id="btn-submit-order" class="flex-1 py-3 px-4 rounded-xl bg-chili-500 hover:bg-chili-600 text-white text-sm font-semibold shadow-sm cursor-pointer">
+                        ยืนยันสั่งซื้อ & ส่งเข้า Google Forms
+                    </button>
+                </div>
+            </form>
+
+            <!-- Order Confirmation & Google Forms Sync Receipt -->
+            <div id="demo-order-success" class="hidden p-6 sm:p-8 text-center space-y-4">
+                <div class="w-16 h-16 rounded-full bg-sage-100 text-sage-700 flex items-center justify-center mx-auto">
+                    <i data-lucide="check-circle-2" class="w-10 h-10"></i>
+                </div>
+                <div>
+                    <span class="bg-sage-100 text-sage-700 text-xs font-bold px-3 py-1 rounded-full" id="gform-sync-badge">
+                        บันทึกข้อมูลลง Google Forms สำเร็จ!
+                    </span>
+                    <h4 class="font-editorial text-xl font-bold text-tamarind-900 mt-2">ขอบคุณที่สั่งซื้อกับ SIAM PRIK CRAFT</h4>
+                    <p class="text-xs text-sage-700 mt-1" id="gform-sync-subtext">ระบบได้ส่งข้อมูลคำสั่งซื้อไปยังฐานข้อมูล Google Forms เรียบร้อยแล้ว</p>
+                </div>
+                
+                <div id="order-receipt-box" class="bg-white border border-cream-300 rounded-2xl p-4 text-left text-xs space-y-2 font-sarabun shadow-2xs">
+                    <!-- Receipt details injected here -->
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-2.5 pt-1">
+                    <button type="button" onclick="copyLastOrderPayload()" id="btn-copy-order" class="flex-1 py-3 px-4 rounded-xl border border-cream-300 bg-white hover:bg-cream-100 text-tamarind-900 text-xs font-semibold flex items-center justify-center gap-1.5 cursor-pointer">
+                        <i data-lucide="copy" class="w-4 h-4 text-chili-600"></i>
+                        <span>คัดลอกข้อมูลสำหรับวางใน Sheets</span>
+                    </button>
+                    <button type="button" onclick="closeOrderModal(); openSubmissionsLogModal();" class="flex-1 py-3 px-4 rounded-xl bg-sage-700 hover:bg-sage-500 text-white text-xs font-semibold flex items-center justify-center gap-1.5 cursor-pointer">
+                        <i data-lucide="table" class="w-4 h-4"></i>
+                        <span>ดูตารางข้อมูล Google Forms</span>
+                    </button>
+                </div>
+
+                <button onclick="closeOrderModal()" class="w-full py-3 px-4 rounded-xl bg-tamarind-900 hover:bg-chili-600 text-white text-sm font-semibold transition-colors cursor-pointer">
+                    กลับสู่หน้าร้านค้า
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- MODAL 2: GOOGLE FORMS REAL URL & ENTRY ID CONFIGURATION               -->
+    <!-- ===================================================================== -->
+    <div id="gform-config-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-tamarind-900/65 backdrop-blur-xs p-4 overflow-y-auto">
+        <div class="bg-cream-50 rounded-3xl max-w-lg w-full shadow-2xl border border-cream-300 overflow-hidden animate-fade-in my-8">
+            <div class="bg-sage-700 text-white px-6 py-4 flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <i data-lucide="file-spreadsheet" class="w-5 h-5 text-saffron-200"></i>
+                    <h3 class="font-editorial font-bold text-base">ตั้งค่าเชื่อมต่อ Google Forms จริง</h3>
+                </div>
+                <button onclick="closeGoogleFormsConfigModal()" class="text-cream-200 hover:text-white p-1 cursor-pointer">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+            <form onsubmit="saveGoogleFormsConfig(event)" class="p-6 space-y-4 text-xs">
+                <p class="text-tamarind-700 font-sarabun text-sm leading-relaxed">
+                    หากกลุ่มของคุณสร้าง <strong>Google Forms</strong> ของจริงไว้แล้ว สามารถนำลิงก์ <code>formResponse</code> และรหัส <code>entry.xxxxxx</code> มาวางด้านล่าง เพื่อให้ทุกครั้งที่กด "ทดลองสั่งซื้อ" ข้อมูลจะวิ่งเข้า Google Forms และ Google Sheets ของกลุ่มคุณทันที
+                </p>
+
+                <div>
+                    <label class="block font-semibold text-tamarind-900 mb-1">Google Form Action URL (ลงท้ายด้วย /formResponse)</label>
+                    <input type="url" id="cfg-form-url" placeholder="https://docs.google.com/forms/d/e/1FAIpQLSd.../formResponse" class="w-full px-3.5 py-2.5 rounded-xl border border-cream-300 bg-white text-xs focus:outline-none focus:border-sage-500">
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block font-semibold text-tamarind-900 mb-1">Entry ID: ชื่อลูกค้า</label>
+                        <input type="text" id="cfg-entry-name" placeholder="entry.123456789" class="w-full px-3 py-2 rounded-xl border border-cream-300 bg-white text-xs">
+                    </div>
+                    <div>
+                        <label class="block font-semibold text-tamarind-900 mb-1">Entry ID: เบอร์โทร / Line</label>
+                        <input type="text" id="cfg-entry-phone" placeholder="entry.234567890" class="w-full px-3 py-2 rounded-xl border border-cream-300 bg-white text-xs">
+                    </div>
+                    <div>
+                        <label class="block font-semibold text-tamarind-900 mb-1">Entry ID: รสชาติ & จำนวน</label>
+                        <input type="text" id="cfg-entry-item" placeholder="entry.345678901" class="w-full px-3 py-2 rounded-xl border border-cream-300 bg-white text-xs">
+                    </div>
+                    <div>
+                        <label class="block font-semibold text-tamarind-900 mb-1">Entry ID: ที่อยู่จัดส่ง & หมายเหตุ</label>
+                        <input type="text" id="cfg-entry-address" placeholder="entry.456789012" class="w-full px-3 py-2 rounded-xl border border-cream-300 bg-white text-xs">
+                    </div>
+                </div>
+
+                <div class="bg-cream-200/70 p-3 rounded-xl border border-cream-300 text-[11px] text-tamarind-800">
+                    <strong>วิธีดูรหัส Entry ID:</strong> เปิดหน้า Google Form ของคุณ &rarr; กดจุด 3 จุดมุมขวาบน &rarr; เลือก <em>"รับลิงก์ที่กรอกข้อมูลไว้ล่วงหน้า (Get pre-filled link)"</em> &rarr; กรอกข้อความตัวอย่างแล้วกดรับลิงก์ จะเห็นรหัส <code>entry.ตัวเลข</code> ใน URL ทันที
+                </div>
+
+                <div class="flex items-center gap-3 pt-2">
+                    <button type="button" onclick="resetGoogleFormsConfig()" class="py-2.5 px-4 rounded-xl border border-cream-300 bg-white text-tamarind-700 font-medium hover:bg-cream-100 cursor-pointer">
+                        ใช้โหมดจำลองในตัว
+                    </button>
+                    <button type="submit" class="flex-1 py-2.5 px-4 rounded-xl bg-sage-700 hover:bg-sage-500 text-white font-semibold cursor-pointer">
+                        บันทึกการตั้งค่า Google Forms
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- MODAL 3: GOOGLE FORMS RESPONSES LOG (จำลองตาราง Google Sheets)         -->
+    <!-- ===================================================================== -->
+    <div id="submissions-log-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-tamarind-900/65 backdrop-blur-xs p-4 overflow-y-auto">
+        <div class="bg-cream-50 rounded-3xl max-w-3xl w-full shadow-2xl border border-cream-300 overflow-hidden animate-fade-in my-8">
+            <div class="bg-sage-700 text-white px-6 py-4 flex items-center justify-between">
+                <div class="flex items-center gap-2.5">
+                    <i data-lucide="table" class="w-5 h-5 text-saffron-200"></i>
+                    <div>
+                        <h3 class="font-editorial font-bold text-base sm:text-lg">ฐานข้อมูลคำสั่งซื้อ (Google Forms / Sheets Responses)</h3>
+                        <p class="text-[11px] text-cream-200">แสดงรายการทดลองสั่งซื้อทั้งหมดที่ถูกส่งจากหน้าร้าน SIAM PRIK CRAFT</p>
+                    </div>
+                </div>
+                <button onclick="closeSubmissionsLogModal()" class="text-cream-200 hover:text-white p-1 cursor-pointer">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+            <div class="p-6 space-y-4">
+                <div class="flex flex-wrap items-center justify-between gap-2 text-xs">
+                    <span class="text-tamarind-700">บันทึกข้อมูลอัตโนมัติในเบราว์เซอร์ (พร้อมส่งเข้า Google Form URL หากตั้งค่าไว้)</span>
+                    <button onclick="openOrderModal(); closeSubmissionsLogModal();" class="bg-chili-500 hover:bg-chili-600 text-white font-semibold px-3.5 py-1.5 rounded-full cursor-pointer">
+                        + ทดลองสั่งซื้อเพิ่ม
+                    </button>
+                </div>
+
+                <div class="overflow-x-auto border border-cream-300 rounded-2xl bg-white max-h-[340px]">
+                    <table class="w-full text-left border-collapse text-xs">
+                        <thead class="bg-cream-200 text-tamarind-900 sticky top-0">
+                            <tr>
+                                <th class="py-3 px-3 font-semibold">Timestamp / รหัส</th>
+                                <th class="py-3 px-3 font-semibold">ชื่อลูกค้า & ติดต่อ</th>
+                                <th class="py-3 px-3 font-semibold">รสชาติ & จำนวน</th>
+                                <th class="py-3 px-3 font-semibold">ยอดรวม</th>
+                                <th class="py-3 px-3 font-semibold">สถานะ Google Forms</th>
+                            </tr>
+                        </thead>
+                        <tbody id="submissions-table-body" class="divide-y divide-cream-200 font-sarabun">
+                            <!-- Populated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="flex justify-end">
+                    <button onclick="closeSubmissionsLogModal()" class="py-2.5 px-5 rounded-xl bg-tamarind-900 text-white text-xs font-semibold cursor-pointer">
+                        ปิดหน้าต่าง
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- JAVASCRIPT LOGIC: INTERACTIVE JAR, 12 IP ITEMS & GOOGLE FORMS SYNC    -->
+    <!-- ===================================================================== -->
+    <script>
+        // 1. ข้อมูลแฟ้มวิเคราะห์ทรัพย์สินทางปัญญา 12 ตัวอย่าง (ครบ 4 หมวด หมวดละ 3 รายการ ตามโจทย์เป๊ะ)
+        const ipPortfolioData = [
+            // --- หมวดที่ 1: ลิขสิทธิ์ (Copyright) 3 ตัวอย่าง ---
+            {
+                id: 1,
+                category: 'copyright',
+                categoryLabel: '1. ลิขสิทธิ์ (Copyright)',
+                badgeColor: 'bg-blue-50 text-blue-900 border-blue-200',
+                title: '1.1 ภาพถ่ายชุดน้ำพริกคราฟต์และจัดจานอาหาร (ถ่ายเอง)',
+                sourceBadge: 'สร้างเอง (ถ่ายภาพเอง)',
+                sourceColor: 'bg-emerald-100 text-emerald-900',
+                statusBadge: 'พร้อมเปิดเผยต่อลูกค้า',
+                statusColor: 'bg-emerald-50 text-emerald-800 border-emerald-200',
+                svgIllustration: `
+                    <svg class="w-full h-28" viewBox="0 0 220 100" fill="none">
+                        <rect width="220" height="100" rx="14" fill="#F0F5FA"/>
+                        <rect x="52" y="16" width="116" height="68" rx="8" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.8"/>
+                        <circle cx="110" cy="52" r="20" fill="#FCEAE4" stroke="#B84A27" stroke-width="1.5"/>
+                        <circle cx="110" cy="52" r="11" fill="#B84A27"/>
+                        <circle cx="162" cy="22" r="10" fill="#10B981"/>
+                        <path d="M158 22 L161 25 L167 19" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    </svg>`,
+                description: 'ผลงานภาพถ่ายศิลปกรรมประเภทภาพถ่ายการจัดจานน้ำพริกคราฟต์คู่ข้าวสวยและผักสด ถ่ายทำและจัดแสงโดยสมาชิกในทีม (คนที่ 3) ร้านเป็นเจ้าของลิขสิทธิ์แต่เพียงผู้เดียว สามารถนำไปใช้โฆษณาบนเว็บไซต์และโซเชียลมีเดียได้โดยไม่ละเมิดสิทธิ์ผู้อื่น'
+            },
+            {
+                id: 2,
+                category: 'copyright',
+                categoryLabel: '1. ลิขสิทธิ์ (Copyright)',
+                badgeColor: 'bg-blue-50 text-blue-900 border-blue-200',
+                title: '1.2 งานออกแบบฉลากกระปุกและลวดลายสมุนไพรไทย',
+                sourceBadge: 'สร้างเอง (วาดเวกเตอร์เอง)',
+                sourceColor: 'bg-emerald-100 text-emerald-900',
+                statusBadge: 'พร้อมเปิดเผยต่อลูกค้า',
+                statusColor: 'bg-emerald-50 text-emerald-800 border-emerald-200',
+                svgIllustration: `
+                    <svg class="w-full h-28" viewBox="0 0 220 100" fill="none">
+                        <rect width="220" height="100" rx="14" fill="#F0F5FA"/>
+                        <rect x="65" y="14" width="90" height="72" rx="6" fill="#FAF6F0" stroke="#B84A27" stroke-width="1.8"/>
+                        <rect x="71" y="20" width="78" height="60" rx="3" stroke="#3B82F6" stroke-width="1" stroke-dasharray="3 2"/>
+                        <path d="M110 34 C116 42, 116 54, 106 64 C104 54, 106 42, 110 34 Z" fill="#B84A27"/>
+                        <line x1="85" y1="72" x2="135" y2="72" stroke="#1E40AF" stroke-width="2"/>
+                    </svg>`,
+                description: 'งานศิลปกรรมภาพวาดลายเส้นพริกขี้หนู ใบมะกรูด และกรอบฉลากบนกระปุกน้ำพริก สร้างสรรค์ขึ้นใหม่ทั้งหมดโดยไม่ใช้เทมเพลตสำเร็จรูปที่มีข้อจำกัดเชิงพาณิชย์ ร้านมีสิทธิ์เด็ดขาดในการสั่งพิมพ์ฉลากและปรับสีแยกตามรสชาติ'
+            },
+            {
+                id: 3,
+                category: 'copyright',
+                categoryLabel: '1. ลิขสิทธิ์ (Copyright)',
+                badgeColor: 'bg-blue-50 text-blue-900 border-blue-200',
+                title: '1.3 คำบรรยายรสชาติอาหารและเมนูแนะนำการทานคู่',
+                sourceBadge: 'สร้างเอง (เขียนเรียบเรียงเอง)',
+                sourceColor: 'bg-emerald-100 text-emerald-900',
+                statusBadge: 'พร้อมเปิดเผยต่อลูกค้า',
+                statusColor: 'bg-emerald-50 text-emerald-800 border-emerald-200',
+                svgIllustration: `
+                    <svg class="w-full h-28" viewBox="0 0 220 100" fill="none">
+                        <rect width="220" height="100" rx="14" fill="#F0F5FA"/>
+                        <rect x="60" y="14" width="100" height="72" rx="8" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.8"/>
+                        <line x1="74" y1="30" x2="146" y2="30" stroke="#1D4ED8" stroke-width="3" stroke-linecap="round"/>
+                        <line x1="74" y1="44" x2="138" y2="44" stroke="#93C5FD" stroke-width="2.5" stroke-linecap="round"/>
+                        <line x1="74" y1="56" x2="142" y2="56" stroke="#93C5FD" stroke-width="2.5" stroke-linecap="round"/>
+                        <line x1="74" y1="68" x2="120" y2="68" stroke="#93C5FD" stroke-width="2.5" stroke-linecap="round"/>
+                    </svg>`,
+                description: 'งานวรรณกรรมประเภทบทความเล่าเรื่องวัตถุดิบท้องถิ่น คำบรรยายรสสัมผัสทั้ง 3 รสชาติ และคู่มือการเก็บรักษาน้ำพริกหลังเปิดกระปุก เขียนขึ้นเองโดยฝ่ายคอนเทนต์ (สมาชิกคนที่ 5) ร้านจึงมีลิขสิทธิ์ในการเผยแพร่บนหน้าเว็บและแผ่นพับในกล่อง'
+            },
+
+            // --- หมวดที่ 2: เครื่องหมายการค้า (Trademark) 3 ตัวอย่าง ---
+            {
+                id: 4,
+                category: 'trademark',
+                categoryLabel: '2. เครื่องหมายการค้า (Trademark)',
+                badgeColor: 'bg-purple-50 text-purple-900 border-purple-200',
+                title: '2.1 ชื่อแบรนด์ "SIAM PRIK CRAFT (สยามพริกคราฟต์)"',
+                sourceBadge: 'สร้างเอง (ตั้งชื่อแบรนด์เอง)',
+                sourceColor: 'bg-emerald-100 text-emerald-900',
+                statusBadge: 'อยู่ระหว่างตรวจสอบก่อนจดทะเบียน',
+                statusColor: 'bg-amber-50 text-amber-900 border-amber-200',
+                svgIllustration: `
+                    <svg class="w-full h-28" viewBox="0 0 220 100" fill="none">
+                        <rect width="220" height="100" rx="14" fill="#F8F5FC"/>
+                        <rect x="28" y="26" width="164" height="48" rx="24" fill="#FFFFFF" stroke="#9333EA" stroke-width="1.8"/>
+                        <text x="110" y="54" text-anchor="middle" fill="#581C87" font-size="13.5" font-weight="bold">SIAM PRIK CRAFT™</text>
+                    </svg>`,
+                description: 'ชื่อแบรนด์ที่สื่อถึงน้ำพริกไทยฝีมือคราฟต์ ช่วยให้ลูกค้าจดจำและแยกแยะสินค้าของร้านออกจากน้ำพริกตลาดทั่วไปได้ชัดเจน ผลการตรวจค้นเบื้องต้นยังไม่พบชื่อซ้ำตรงตัวในจำพวกที่ 29 และ 30 แต่ต้องตรวจความเหมือนคล้ายที่กรมทรัพย์สินทางปัญญาก่อนยื่นจดทะเบียน'
+            },
+            {
+                id: 5,
+                category: 'trademark',
+                categoryLabel: '2. เครื่องหมายการค้า (Trademark)',
+                badgeColor: 'bg-purple-50 text-purple-900 border-purple-200',
+                title: '2.2 โลโก้รูปพริกไทยโค้งผสานใบมะกรูด',
+                sourceBadge: 'สร้างเอง (ออกแบบเวกเตอร์)',
+                sourceColor: 'bg-emerald-100 text-emerald-900',
+                statusBadge: 'อยู่ระหว่างตรวจสอบก่อนจดทะเบียน',
+                statusColor: 'bg-amber-50 text-amber-900 border-amber-200',
+                svgIllustration: `
+                    <svg class="w-full h-28" viewBox="0 0 220 100" fill="none">
+                        <rect width="220" height="100" rx="14" fill="#F8F5FC"/>
+                        <circle cx="110" cy="50" r="32" fill="#231915"/>
+                        <path d="M119 32C124 36 125 46 118 54C112 61 102 61 97 58C103 56 109 51 112 44C114 39 115 34 119 32Z" fill="#B84A27"/>
+                        <path d="M99 46C95 41 96 34 103 32C106 38 105 44 99 46Z" stroke="#F9E3B8" stroke-width="2"/>
+                    </svg>`,
+                description: 'เครื่องหมายรูปภาพรูปพริกสีแดงดินเผาคู่ใบมะกรูด ใช้ประทับบนฉลากหน้ากระปุก ซีลฝา และไอคอนหน้าร้านออนไลน์ ช่วยสร้างการจดจำทางสายตาให้ลูกค้าแยกแยะน้ำพริกของร้านได้ทันที ออกแบบขึ้นใหม่ทั้งหมดเพื่อไม่ให้คล้ายคลึงกับโลโก้ของผู้อื่น'
+            },
+            {
+                id: 6,
+                category: 'trademark',
+                categoryLabel: '2. เครื่องหมายการค้า (Trademark)',
+                badgeColor: 'bg-purple-50 text-purple-900 border-purple-200',
+                title: '2.3 สโลแกน "รสชาติไทยแท้ คั่วใหม่ทุกกระปุก"',
+                sourceBadge: 'สร้างเอง (คิดคำขวัญเอง)',
+                sourceColor: 'bg-emerald-100 text-emerald-900',
+                statusBadge: 'พร้อมเปิดเผยต่อลูกค้า',
+                statusColor: 'bg-emerald-50 text-emerald-800 border-emerald-200',
+                svgIllustration: `
+                    <svg class="w-full h-28" viewBox="0 0 220 100" fill="none">
+                        <rect width="220" height="100" rx="14" fill="#F8F5FC"/>
+                        <path d="M28 28 H192 V64 H120 L110 76 L100 64 H28 Z" fill="#FFFFFF" stroke="#9333EA" stroke-width="1.8"/>
+                        <text x="110" y="50" text-anchor="middle" fill="#6B21A8" font-size="10.5" font-weight="bold">“รสชาติไทยแท้ คั่วใหม่ทุกกระปุก”</text>
+                    </svg>`,
+                description: 'คำขวัญประจำร้านที่ตอกย้ำจุดขายเรื่องความสดใหม่ของการคั่วสมุนไพร ช่วยแยกแยะภาพลักษณ์สินค้าคราฟต์ออกจากน้ำพริกโรงงานอุตสาหกรรม ตรวจสอบเบื้องต้นแล้วไม่ซ้ำกับสโลแกนของแบรนด์อาหารอื่นในตลาด'
+            },
+
+            // --- หมวดที่ 3: สิทธิบัตร (Patent) 3 ตัวอย่าง ---
+            {
+                id: 7,
+                category: 'patent',
+                categoryLabel: '3. สิทธิบัตร (Patent)',
+                badgeColor: 'bg-amber-50 text-amber-900 border-amber-200',
+                title: '3.1 กลไกฝาล็อกสุญญากาศพร้อมวาล์วไล่อากาศคงความกรอบ',
+                sourceBadge: 'ภาพร่างแนวคิด (Concept Sketch)',
+                sourceColor: 'bg-sky-100 text-sky-900',
+                statusBadge: 'ยังไม่ตรวจสอบฐานข้อมูลสิทธิบัตรอย่างละเอียด',
+                statusColor: 'bg-amber-50 text-amber-900 border-amber-200',
+                svgIllustration: `
+                    <svg class="w-full h-28" viewBox="0 0 220 100" fill="none">
+                        <rect width="220" height="100" rx="14" fill="#FEF9EC"/>
+                        <rect x="60" y="38" width="100" height="22" rx="6" fill="#FFFFFF" stroke="#D97706" stroke-width="1.8"/>
+                        <rect x="94" y="28" width="32" height="10" rx="4" fill="#B84A27"/>
+                        <path d="M110 14 V25 M105 19 L110 14 L115 19" stroke="#B45309" stroke-width="1.8" stroke-linecap="round"/>
+                        <text x="110" y="80" text-anchor="middle" fill="#92400E" font-size="8.5">ภาพร่างกลไกวาล์วไล่อากาศ (ยังไม่ตรวจฐานข้อมูล)</text>
+                    </svg>`,
+                description: 'ต้องการคุ้มครองกลไกวาล์วซิลิโคนทางเดียวบนฝาไม้ไผ่ที่ช่วยระบายอากาศออกเมื่อกดปิดฝา เพื่อป้องกันความชื้นทำให้น้ำพริกหายกรอบ ปัจจุบันเป็นภาพร่างแนวคิดของทีม ซึ่งยังไม่ได้ตรวจสอบฐานข้อมูลสิทธิบัตรและอนุสิทธิบัตรอย่างละเอียดก่อนยื่นคำขอ'
+            },
+            {
+                id: 8,
+                category: 'patent',
+                categoryLabel: '3. สิทธิบัตร (Patent)',
+                badgeColor: 'bg-amber-50 text-amber-900 border-amber-200',
+                title: '3.2 กรรมวิธีคั่วเตาถ่านร่วมกับอบลมร้อนรีดน้ำมัน 95%',
+                sourceBadge: 'ภาพร่างแนวคิด (Process Diagram)',
+                sourceColor: 'bg-sky-100 text-sky-900',
+                statusBadge: 'อยู่ระหว่างตรวจสอบความใหม่ก่อนยื่นขอ',
+                statusColor: 'bg-amber-50 text-amber-900 border-amber-200',
+                svgIllustration: `
+                    <svg class="w-full h-28" viewBox="0 0 220 100" fill="none">
+                        <rect width="220" height="100" rx="14" fill="#FEF9EC"/>
+                        <rect x="32" y="30" width="44" height="36" rx="6" fill="#FFFFFF" stroke="#D97706" stroke-width="1.8"/>
+                        <rect x="88" y="30" width="44" height="36" rx="6" fill="#FFFFFF" stroke="#D97706" stroke-width="1.8"/>
+                        <rect x="144" y="30" width="44" height="36" rx="6" fill="#FFFFFF" stroke="#D97706" stroke-width="1.8"/>
+                        <path d="M76 48 H88 M132 48 H144" stroke="#B45309" stroke-width="2"/>
+                        <text x="54" y="51" text-anchor="middle" fill="#92400E" font-size="7.5" font-weight="bold">คั่วเตาถ่าน</text>
+                        <text x="110" y="51" text-anchor="middle" fill="#92400E" font-size="7.5" font-weight="bold">อบรีดน้ำมัน</text>
+                        <text x="166" y="51" text-anchor="middle" fill="#92400E" font-size="7.5" font-weight="bold">ซีลสุญญากาศ</text>
+                        <text x="110" y="82" text-anchor="middle" fill="#92400E" font-size="8.5">ผังกรรมวิธีผลิต 2 ขั้นตอน (รอตรวจความใหม่)</text>
+                    </svg>`,
+                description: 'ต้องการคุ้มครองขั้นตอนกระบวนการคั่วสมุนไพรด้วยเตาถ่านเพื่อให้ได้กลิ่นหอม แล้วนำเข้าตู้อบลมร้อนควบคุมอุณหภูมิเพื่อรีดน้ำมันส่วนเกินออก 95% ปัจจุบันอยู่ในขั้นภาพร่างผังกระบวนการและยังไม่ได้สืบค้นเทียบกับสิทธิบัตรกรรมวิธีอาหารเดิม'
+            },
+            {
+                id: 9,
+                category: 'patent',
+                categoryLabel: '3. สิทธิบัตร (Patent)',
+                badgeColor: 'bg-amber-50 text-amber-900 border-amber-200',
+                title: '3.3 รูปทรงกระปุกแก้วปากกว้างฐานโค้งตักง่าย (Design Patent)',
+                sourceBadge: 'ภาพร่างแนวคิด (Design Sketch)',
+                sourceColor: 'bg-sky-100 text-sky-900',
+                statusBadge: 'อยู่ระหว่างเทียบกับบรรจุภัณฑ์เดิม',
+                statusColor: 'bg-amber-50 text-amber-900 border-amber-200',
+                svgIllustration: `
+                    <svg class="w-full h-28" viewBox="0 0 220 100" fill="none">
+                        <rect width="220" height="100" rx="14" fill="#FEF9EC"/>
+                        <rect x="82" y="24" width="56" height="58" rx="14" fill="#FFFFFF" stroke="#D97706" stroke-width="1.8"/>
+                        <path d="M88 68 C88 76, 132 76, 132 68" stroke="#B45309" stroke-width="1.5" stroke-dasharray="2 2"/>
+                        <line x1="65" y1="24" x2="155" y2="24" stroke="#94A3B8" stroke-dasharray="2 2"/>
+                        <line x1="65" y1="82" x2="155" y2="82" stroke="#94A3B8" stroke-dasharray="2 2"/>
+                    </svg>`,
+                description: 'ต้องการคุ้มครองรูปลักษณ์ภายนอกของกระปุกแก้วปากกว้างที่มีก้นโหลโค้งมนรับกับช้อนตักเพื่อไม่ให้น้ำพริกติดมุมก้นกระปุก ภายใต้ "สิทธิบัตรการออกแบบผลิตภัณฑ์" ปัจจุบันเป็นภาพร่างการออกแบบที่อยู่ระหว่างเปรียบเทียบกับโหลแก้วมาตรฐานเดิมในท้องตลาด'
+            },
+
+            // --- หมวดที่ 4: ความลับทางการค้า (Trade Secret) 3 ตัวอย่าง ---
+            {
+                id: 10,
+                category: 'tradesecret',
+                categoryLabel: '4. ความลับทางการค้า (Trade Secret)',
+                badgeColor: 'bg-emerald-50 text-emerald-900 border-emerald-200',
+                title: '4.1 สูตรสัดส่วนเครื่องเทศและเวลาคั่วน้ำพริกทั้ง 3 รสชาติ',
+                sourceBadge: 'สูตรลับเฉพาะของร้าน (Confidential)',
+                sourceColor: 'bg-rose-100 text-rose-900',
+                statusBadge: 'ห้ามเปิดเผย — ความลับทางการค้า',
+                statusColor: 'bg-rose-50 text-rose-800 border-rose-200',
+                svgIllustration: `
+                    <svg class="w-full h-28" viewBox="0 0 220 100" fill="none">
+                        <rect width="220" height="100" rx="14" fill="#ECFDF5"/>
+                        <rect x="68" y="20" width="84" height="60" rx="12" fill="#FFFFFF" stroke="#059669" stroke-width="1.8"/>
+                        <path d="M101 46 V38 A9 9 0 0 1 119 38 V46" stroke="#059669" stroke-width="2.5"/>
+                        <rect x="95" y="46" width="30" height="24" rx="5" fill="#059669"/>
+                        <circle cx="110" cy="57" r="2.8" fill="white"/>
+                    </svg>`,
+                description: 'สัดส่วนกรัมของพริกแห้ง สมุนไพร กุ้งเสียบ เห็ดหอมทรัฟเฟิล และอุณหภูมิการอบที่ทำให้รสชาติกลมกล่อมเป็นเอกลักษณ์ ร้านเลือกเก็บเป็นความลับทางการค้าแทนการจดสิทธิบัตรเพื่อไม่ให้สูตรถูกเปิดเผย โดยเข้ารหัสไฟล์สูตรและให้พนักงานครัวเซ็นสัญญา NDA'
+            },
+            {
+                id: 11,
+                category: 'tradesecret',
+                categoryLabel: '4. ความลับทางการค้า (Trade Secret)',
+                badgeColor: 'bg-emerald-50 text-emerald-900 border-emerald-200',
+                title: '4.2 รายชื่อแหล่งรับซื้อวัตถุดิบชุมชนและโครงสร้างต้นทุนอาหาร',
+                sourceBadge: 'ข้อมูลภายในธุรกิจ (Internal Costing)',
+                sourceColor: 'bg-rose-100 text-rose-900',
+                statusBadge: 'ห้ามเปิดเผย — ความลับทางการค้า',
+                statusColor: 'bg-rose-50 text-rose-800 border-rose-200',
+                svgIllustration: `
+                    <svg class="w-full h-28" viewBox="0 0 220 100" fill="none">
+                        <rect width="220" height="100" rx="14" fill="#ECFDF5"/>
+                        <rect x="52" y="18" width="116" height="64" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.8"/>
+                        <line x1="68" y1="35" x2="122" y2="35" stroke="#047857" stroke-width="3"/>
+                        <rect x="130" y="30" width="24" height="10" rx="2" fill="#FECDD3"/>
+                        <line x1="68" y1="50" x2="114" y2="50" stroke="#6EE7B7" stroke-width="3"/>
+                        <rect x="130" y="45" width="24" height="10" rx="2" fill="#FECDD3"/>
+                        <line x1="68" y1="65" x2="118" y2="65" stroke="#6EE7B7" stroke-width="3"/>
+                        <rect x="130" y="60" width="24" height="10" rx="2" fill="#FECDD3"/>
+                    </svg>`,
+                description: 'รายชื่อกลุ่มประมงกุ้งเสียบภูเก็ต ฟาร์มปลาสลิดบางบ่อ และตารางคำนวณต้นทุนวัตถุดิบต่อกระปุก ข้อมูลนี้สร้างความได้เปรียบด้านคุณภาพและกำไร หากรั่วไหลคู่แข่งสามารถติดต่อแย่งซื้อวัตถุดิบได้ จึงจำกัดสิทธิ์เข้าถึงเฉพาะหัวหน้าโครงการและฝ่าย R&D'
+            },
+            {
+                id: 12,
+                category: 'tradesecret',
+                categoryLabel: '4. ความลับทางการค้า (Trade Secret)',
+                badgeColor: 'bg-emerald-50 text-emerald-900 border-emerald-200',
+                title: '4.3 ฐานข้อมูลคำสั่งซื้อลูกค้าใน Google Sheets & ประวัติรสชาติโปรด',
+                sourceBadge: 'ข้อมูลลูกค้าเฉพาะของร้าน (CRM Data)',
+                sourceColor: 'bg-rose-100 text-rose-900',
+                statusBadge: 'ห้ามเปิดเผย — ความลับทางการค้า & PDPA',
+                statusColor: 'bg-rose-50 text-rose-800 border-rose-200',
+                svgIllustration: `
+                    <svg class="w-full h-28" viewBox="0 0 220 100" fill="none">
+                        <rect width="220" height="100" rx="14" fill="#ECFDF5"/>
+                        <ellipse cx="110" cy="30" rx="38" ry="10" fill="#FFFFFF" stroke="#059669" stroke-width="1.8"/>
+                        <path d="M72 30 V50 C72 56, 148 56, 148 50 V30" fill="#FFFFFF" stroke="#059669" stroke-width="1.8"/>
+                        <path d="M72 50 V70 C72 76, 148 76, 148 70 V50" fill="#FFFFFF" stroke="#059669" stroke-width="1.8"/>
+                    </svg>`,
+                description: 'รายชื่อผู้สั่งซื้อ เบอร์ติดต่อ ที่อยู่จัดส่ง และข้อมูลรสชาติที่ลูกค้าแต่ละรายสั่งซื้อซ้ำในระบบ Google Forms / Google Sheets ซึ่งมีมูลค่าทางธุรกิจสูง ร้านตั้งค่าสิทธิ์การเข้าถึงแบบ Restricted เฉพาะผู้ดูแลระบบ และห้ามเผยแพร่ต่อสาธารณะตามกฎหมายความลับทางการค้าและ PDPA'
+            }
+        ];
+
+        // 2. Render IP Portfolio Cards
+        function renderIPCards(filterCategory = 'all') {
+            const container = document.getElementById('ip-cards-container');
+            const filtered = filterCategory === 'all' 
+                ? ipPortfolioData 
+                : ipPortfolioData.filter(item => item.category === filterCategory);
+
+            container.innerHTML = filtered.map(item => `
+                <article class="bg-white rounded-3xl border border-cream-300 overflow-hidden flex flex-col justify-between hover:shadow-lg hover:border-chili-400 transition-all duration-300">
+                    <div>
+                        <div class="px-4 py-3 border-b border-cream-200 bg-cream-50/80 flex flex-wrap items-center justify-between gap-1.5">
+                            <span class="text-[11px] font-bold px-2.5 py-0.5 rounded-full border ${item.badgeColor}">
+                                ${item.categoryLabel}
+                            </span>
+                            <span class="text-[11px] font-semibold px-2.5 py-0.5 rounded-md ${item.sourceColor}">
+                                ${item.sourceBadge}
+                            </span>
+                        </div>
+                        <div class="p-4 pb-2">
+                            ${item.svgIllustration}
+                        </div>
+                        <div class="px-5 py-3 space-y-2">
+                            <h3 class="font-bold text-tamarind-900 text-sm sm:text-base leading-snug">
+                                ${item.title}
+                            </h3>
+                            <p class="text-xs sm:text-sm text-tamarind-700 font-sarabun leading-relaxed">
+                                ${item.description}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-5 py-3.5 bg-cream-50/70 border-t border-cream-200 flex items-center justify-between gap-2">
+                        <span class="text-[11px] text-sage-700 font-medium shrink-0">สถานะ:</span>
+                        <span class="text-[11px] font-semibold px-2.5 py-1 rounded-lg border text-right ${item.statusColor}">
+                            ${item.statusBadge}
+                        </span>
+                    </div>
+                </article>
+            `).join('');
+        }
+
+        function filterIP(category, btnElement) {
+            document.querySelectorAll('.ip-filter-btn').forEach(btn => {
+                btn.classList.remove('bg-tamarind-900', 'text-white');
+            });
+            btnElement.classList.add('bg-tamarind-900', 'text-white');
+            renderIPCards(category);
+        }
+
+        // 3. View Mode, Rubric Drawer & Tab Navigation
+        let currentMode = 'store';
+        let currentSection = 'storefront';
+
+        function toggleRubricDrawer() {
+            const drawer = document.getElementById('rubric-drawer');
+            drawer.classList.toggle('hidden');
+        }
+
+        function switchViewMode(mode) {
+            currentMode = mode;
+            const btnStore = document.getElementById('btn-mode-store');
+            const btnTeacher = document.getElementById('btn-mode-teacher');
+            const teacherBanner = document.getElementById('teacher-banner');
+            const sections = document.querySelectorAll('.deliverable-section');
+
+            if (mode === 'teacher') {
+                btnTeacher.classList.add('bg-sage-500', 'text-white', 'shadow-xs');
+                btnTeacher.classList.remove('text-cream-200');
+                btnStore.classList.remove('bg-chili-500', 'text-white', 'shadow-xs');
+                btnStore.classList.add('text-cream-200');
+                
+                teacherBanner.classList.remove('hidden');
+                sections.forEach(sec => sec.classList.remove('hidden'));
+            } else {
+                btnStore.classList.add('bg-chili-500', 'text-white', 'shadow-xs');
+                btnStore.classList.remove('text-cream-200');
+                btnTeacher.classList.remove('bg-sage-500', 'text-white', 'shadow-xs');
+                btnTeacher.classList.add('text-cream-200');
+
+                teacherBanner.classList.add('hidden');
+                navigateTo(currentSection);
+            }
+        }
+
+        function navigateTo(sectionId) {
+            currentSection = sectionId;
+
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('bg-white', 'text-tamarind-900', 'shadow-xs', 'font-semibold');
+                tab.classList.add('text-tamarind-700', 'font-medium');
+                const badge = tab.querySelector('span:first-child');
+                if (badge) {
+                    badge.classList.remove('bg-chili-500', 'text-white');
+                    badge.classList.add('bg-cream-300', 'text-tamarind-900');
+                }
+            });
+            const activeTab = document.getElementById(`nav-${sectionId}`);
+            if (activeTab) {
+                activeTab.classList.add('bg-white', 'text-tamarind-900', 'shadow-xs', 'font-semibold');
+                activeTab.classList.remove('text-tamarind-700', 'font-medium');
+                const badge = activeTab.querySelector('span:first-child');
+                if (badge) {
+                    badge.classList.add('bg-chili-500', 'text-white');
+                    badge.classList.remove('bg-cream-300', 'text-tamarind-900');
+                }
+            }
+
+            ['storefront', 'proposal', 'ip-portfolio', 'action-plan'].forEach(id => {
+                const mBtn = document.getElementById(`m-nav-${id}`);
+                if (mBtn) {
+                    if (id === sectionId) {
+                        mBtn.className = 'shrink-0 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-tamarind-900 text-white';
+                    } else {
+                        mBtn.className = 'shrink-0 px-3.5 py-1.5 rounded-full text-xs font-medium bg-white text-tamarind-800 border border-cream-300';
+                    }
+                }
+            });
+
+            if (currentMode === 'teacher') {
+                const targetEl = document.getElementById(`section-${sectionId}`);
+                if (targetEl) {
+                    targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            } else {
+                document.querySelectorAll('.deliverable-section').forEach(sec => {
+                    sec.classList.add('hidden');
+                });
+                const targetEl = document.getElementById(`section-${sectionId}`);
+                if (targetEl) {
+                    targetEl.classList.remove('hidden');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            }
+        }
+
+        // 4. Interactive Chili Paste Jar Flavor Changer
+        let selectedFlavor = '1. น้ำพริกกุ้งเสียบคั่วสมุนไพรกรอบ';
+
+        function selectFlavor(btn, fullName, labelTh, labelEn, fillingColor, auraColor, spiceBadge, noteText) {
+            selectedFlavor = fullName;
+
+            document.querySelectorAll('.flavor-btn').forEach(b => {
+                b.classList.remove('border-2', 'border-tamarind-900', 'bg-white', 'text-tamarind-900', 'shadow-2xs');
+                b.classList.add('border', 'border-cream-300', 'bg-white/80', 'text-tamarind-700');
+            });
+            btn.classList.remove('border', 'border-cream-300', 'bg-white/80', 'text-tamarind-700');
+            btn.classList.add('border-2', 'border-tamarind-900', 'bg-white', 'text-tamarind-900', 'shadow-2xs');
+
+            document.getElementById('svg-filling').setAttribute('fill', fillingColor);
+            document.getElementById('svg-aura').setAttribute('fill', auraColor);
+            document.getElementById('svg-label-th').textContent = labelTh;
+            document.getElementById('svg-label-en').textContent = labelEn;
+            document.getElementById('svg-spice-badge').textContent = spiceBadge;
+            document.getElementById('selected-flavor-note').textContent = noteText;
+        }
+
+        // 5. Google Forms Integration & Order Storage
+        let gformConfig = JSON.parse(localStorage.getItem('siam_prik_gform_cfg') || 'null') || {
+            formUrl: '',
+            entryName: '',
+            entryPhone: '',
+            entryItem: '',
+            entryAddress: ''
+        };
+
+        let orderSubmissions = JSON.parse(localStorage.getItem('siam_prik_orders') || '[]');
+        let lastOrderCopyText = '';
+
+        function updateOrderCountBadge() {
+            document.getElementById('order-count-badge').textContent = orderSubmissions.length;
+            const indicator = document.getElementById('gform-mode-indicator');
+            if (indicator) {
+                indicator.textContent = gformConfig.formUrl 
+                    ? 'สถานะ: เชื่อมต่อ Google Forms จริงแล้ว (ส่งข้อมูลเข้าฟอร์มอัตโนมัติ)' 
+                    : 'สถานะ: พร้อมบันทึกข้อมูลลง Google Forms (โหมดจำลอง & ตารางในเว็บ)';
+            }
+        }
+
+        function openOrderModal() {
+            document.getElementById('modal-flavor-display').textContent = `รสชาติที่เลือก: ${selectedFlavor}`;
+            updateModalPrice();
+            updateOrderCountBadge();
+            document.getElementById('demo-order-form').classList.remove('hidden');
+            document.getElementById('demo-order-success').classList.add('hidden');
+            
+            const modal = document.getElementById('order-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeOrderModal() {
+            const modal = document.getElementById('order-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        function updateModalPrice() {
+            const qty = parseInt(document.getElementById('cust-qty').value || '1', 10);
+            const total = qty * 290;
+            document.getElementById('modal-total-price').textContent = `฿${total.toLocaleString()}`;
+        }
+
+        async function submitDemoOrder(event) {
+            event.preventDefault();
+            const name = document.getElementById('cust-name').value.trim();
+            const phone = document.getElementById('cust-phone').value.trim();
+            const qty = parseInt(document.getElementById('cust-qty').value, 10);
+            const payment = document.getElementById('cust-payment').value;
+            const address = document.getElementById('cust-address').value.trim();
+            const note = document.getElementById('cust-note').value.trim();
+            const total = qty * 290;
+            const orderCode = 'SPC-' + Math.floor(100000 + Math.random() * 900000);
+            const timestamp = new Date().toLocaleString('th-TH');
+
+            let syncStatus = 'บันทึกสำเร็จ (Google Forms Demo Sync)';
+
+            // ถ้าผู้ใช้ตั้งค่า Google Forms URL จริงไว้ ให้ส่งข้อมูลแบบ no-cors POST ไปยัง Google Forms ทันที
+            if (gformConfig.formUrl && gformConfig.formUrl.includes('docs.google.com/forms')) {
+                try {
+                    const formData = new URLSearchParams();
+                    if (gformConfig.entryName) formData.append(gformConfig.entryName, name);
+                    if (gformConfig.entryPhone) formData.append(gformConfig.entryPhone, phone);
+                    if (gformConfig.entryItem) formData.append(gformConfig.entryItem, `${selectedFlavor} x${qty} กระปุก (฿${total}) - ${payment}`);
+                    if (gformConfig.entryAddress) formData.append(gformConfig.entryAddress, `${address} | หมายเหตุ: ${note}`);
+
+                    await fetch(gformConfig.formUrl, {
+                        method: 'POST',
+                        mode: 'no-cors',
+                        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                        body: formData.toString()
+                    });
+                    syncStatus = 'ส่งเข้า Google Forms จริงสำเร็จ!';
+                } catch (err) {
+                    syncStatus = 'บันทึกในตารางสำรองแล้ว';
+                }
+            }
+
+            const newOrder = {
+                orderCode,
+                timestamp,
+                name,
+                phone,
+                flavor: selectedFlavor,
+                qty,
+                total,
+                payment,
+                address,
+                note,
+                syncStatus
+            };
+
+            orderSubmissions.unshift(newOrder);
+            localStorage.setItem('siam_prik_orders', JSON.stringify(orderSubmissions));
+            updateOrderCountBadge();
+
+            lastOrderCopyText = `${timestamp}\t${orderCode}\t${name}\t${phone}\t${selectedFlavor}\t${qty}\t${total}\t${payment}\t${address}\t${note}`;
+
+            document.getElementById('gform-sync-badge').textContent = syncStatus;
+            document.getElementById('gform-sync-subtext').textContent = gformConfig.formUrl 
+                ? 'ระบบส่งข้อมูลไปยังลิงก์ Google Forms ที่ผูกไว้เรียบร้อยแล้ว' 
+                : 'บันทึกข้อมูลคำสั่งซื้อลงตาราง Google Forms Responses จำลองเรียบร้อยแล้ว';
+
+            document.getElementById('order-receipt-box').innerHTML = `
+                <div class="flex justify-between border-b border-cream-200 pb-2">
+                    <span class="text-sage-700">รหัสอ้างอิง Google Forms:</span>
+                    <span class="font-bold text-chili-700">${orderCode}</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-sage-700">รายการอาหาร:</span>
+                    <span class="font-semibold text-tamarind-900">${selectedFlavor} (x${qty})</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-sage-700">ผู้สั่งซื้อ:</span>
+                    <span class="text-tamarind-900">${name} (${phone})</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-sage-700">ที่อยู่จัดส่ง:</span>
+                    <span class="text-tamarind-900 text-right max-w-[60%]">${address}</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-sage-700">หมายเหตุ:</span>
+                    <span class="text-tamarind-900">${note || '-'}</span>
+                </div>
+                <div class="flex justify-between border-t border-cream-200 pt-2 text-sm">
+                    <span class="font-bold text-tamarind-900">ยอดชำระสุทธิ:</span>
+                    <span class="font-bold text-sage-700">฿${total.toLocaleString()}</span>
+                </div>
+            `;
+
+            document.getElementById('demo-order-form').classList.add('hidden');
+            document.getElementById('demo-order-success').classList.remove('hidden');
+            lucide.createIcons();
+        }
+
+        function copyLastOrderPayload() {
+            const tempInput = document.createElement('textarea');
+            tempInput.value = lastOrderCopyText;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+
+            const btn = document.getElementById('btn-copy-order');
+            btn.innerHTML = `<i data-lucide="check" class="w-4 h-4 text-emerald-600"></i><span class="text-emerald-700">คัดลอกแถวข้อมูลแล้ว!</span>`;
+            lucide.createIcons();
+        }
+
+        // Google Forms Config Modal Controls
+        function openGoogleFormsConfigModal() {
+            document.getElementById('cfg-form-url').value = gformConfig.formUrl || '';
+            document.getElementById('cfg-entry-name').value = gformConfig.entryName || '';
+            document.getElementById('cfg-entry-phone').value = gformConfig.entryPhone || '';
+            document.getElementById('cfg-entry-item').value = gformConfig.entryItem || '';
+            document.getElementById('cfg-entry-address').value = gformConfig.entryAddress || '';
+
+            const modal = document.getElementById('gform-config-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeGoogleFormsConfigModal() {
+            const modal = document.getElementById('gform-config-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        function saveGoogleFormsConfig(event) {
+            event.preventDefault();
+            gformConfig = {
+                formUrl: document.getElementById('cfg-form-url').value.trim(),
+                entryName: document.getElementById('cfg-entry-name').value.trim(),
+                entryPhone: document.getElementById('cfg-entry-phone').value.trim(),
+                entryItem: document.getElementById('cfg-entry-item').value.trim(),
+                entryAddress: document.getElementById('cfg-entry-address').value.trim()
+            };
+            localStorage.setItem('siam_prik_gform_cfg', JSON.stringify(gformConfig));
+            updateOrderCountBadge();
+            closeGoogleFormsConfigModal();
+        }
+
+        function resetGoogleFormsConfig() {
+            gformConfig = { formUrl: '', entryName: '', entryPhone: '', entryItem: '', entryAddress: '' };
+            localStorage.removeItem('siam_prik_gform_cfg');
+            updateOrderCountBadge();
+            closeGoogleFormsConfigModal();
+        }
+
+        // Submissions Log Modal Controls
+        function openSubmissionsLogModal() {
+            const tbody = document.getElementById('submissions-table-body');
+            if (orderSubmissions.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="5" class="py-8 text-center text-stone-400">
+                            ยังไม่มีรายการสั่งซื้อ ลองกดปุ่ม "ทดลองสั่งซื้อ" เพื่อทดสอบส่งข้อมูลเข้า Google Forms
+                        </td>
+                    </tr>
+                `;
+            } else {
+                tbody.innerHTML = orderSubmissions.map(o => `
+                    <tr class="hover:bg-cream-50">
+                        <td class="py-3 px-3">
+                            <span class="font-bold text-chili-700 block">${o.orderCode}</span>
+                            <span class="text-[11px] text-stone-500">${o.timestamp}</span>
+                        </td>
+                        <td class="py-3 px-3">
+                            <span class="font-semibold text-tamarind-900 block">${o.name}</span>
+                            <span class="text-[11px] text-stone-600">${o.phone}</span>
+                        </td>
+                        <td class="py-3 px-3">
+                            <span class="text-tamarind-900 block">${o.flavor}</span>
+                            <span class="text-[11px] text-sage-700">จำนวน ${o.qty} กระปุก (${o.payment})</span>
+                        </td>
+                        <td class="py-3 px-3 font-bold text-tamarind-900">฿${o.total.toLocaleString()}</td>
+                        <td class="py-3 px-3">
+                            <span class="inline-block bg-sage-100 text-sage-700 px-2.5 py-1 rounded-full text-[11px] font-semibold">
+                                ${o.syncStatus}
+                            </span>
+                        </td>
+                    </tr>
+                `).join('');
+            }
+
+            const modal = document.getElementById('submissions-log-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeSubmissionsLogModal() {
+            const modal = document.getElementById('submissions-log-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        // Initialize on Load
+        window.addEventListener('DOMContentLoaded', () => {
+            renderIPCards('all');
+            updateOrderCountBadge();
+            lucide.createIcons();
+        });
+    </script>
+</body>
+</html>
